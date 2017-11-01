@@ -1,14 +1,14 @@
 {
  "InternetGateways": [
   {
-   "Tags": [], 
    "Attachments": [
     {
      "State": "available", 
      "VpcId": "vpc-dff0b8ba"
     }
    ], 
-   "InternetGatewayId": "igw-29fb324c"
+   "InternetGatewayId": "igw-29fb324c", 
+   "Tags": []
   }
  ]
 }

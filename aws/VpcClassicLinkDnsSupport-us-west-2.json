@@ -1,20 +1,20 @@
 {
  "Vpcs": [
   {
-   "VpcId": "vpc-b390fad5", 
-   "ClassicLinkDnsSupported": false
+   "ClassicLinkDnsSupported": false, 
+   "VpcId": "vpc-b390fad5"
   }, 
   {
-   "VpcId": "vpc-925131f4", 
-   "ClassicLinkDnsSupported": false
+   "ClassicLinkDnsSupported": false, 
+   "VpcId": "vpc-925131f4"
   }, 
   {
-   "VpcId": "vpc-f8fad69d", 
-   "ClassicLinkDnsSupported": false
+   "ClassicLinkDnsSupported": false, 
+   "VpcId": "vpc-f8fad69d"
   }, 
   {
-   "VpcId": "vpc-815775e7", 
-   "ClassicLinkDnsSupported": false
+   "ClassicLinkDnsSupported": false, 
+   "VpcId": "vpc-815775e7"
   }
  ]
 }

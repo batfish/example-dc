@@ -1,22 +1,22 @@
 {
  "Tags": [
   {
-   "ResourceType": "security-group", 
-   "ResourceId": "sg-fefede99", 
-   "Value": "intentionet-test", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "vpc", 
+   "Key": "Name", 
    "ResourceId": "vpc-1dc49479", 
-   "Value": "ratultest", 
-   "Key": "Name"
+   "ResourceType": "vpc", 
+   "Value": "ratultest"
   }, 
   {
-   "ResourceType": "subnet", 
+   "Key": "Name", 
+   "ResourceId": "sg-fefede99", 
+   "ResourceType": "security-group", 
+   "Value": "intentionet-test"
+  }, 
+  {
+   "Key": "Name", 
    "ResourceId": "subnet-1013e177", 
-   "Value": "Public subnet", 
-   "Key": "Name"
+   "ResourceType": "subnet", 
+   "Value": "Public subnet"
   }
  ]
 }

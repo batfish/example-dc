@@ -1,21 +1,21 @@
 {
  "PrefixLists": [
   {
-   "PrefixListName": "com.amazonaws.ap-southeast-1.s3", 
    "Cidrs": [
     "52.219.32.0/21", 
     "52.219.40.0/22", 
     "54.231.240.0/22", 
     "52.219.76.0/22"
    ], 
-   "PrefixListId": "pl-6fa54006"
+   "PrefixListId": "pl-6fa54006", 
+   "PrefixListName": "com.amazonaws.ap-southeast-1.s3"
   }, 
   {
-   "PrefixListName": "com.amazonaws.ap-southeast-1.dynamodb", 
    "Cidrs": [
     "52.94.11.0/24"
    ], 
-   "PrefixListId": "pl-67a5400e"
+   "PrefixListId": "pl-67a5400e", 
+   "PrefixListName": "com.amazonaws.ap-southeast-1.dynamodb"
   }
  ]
 }

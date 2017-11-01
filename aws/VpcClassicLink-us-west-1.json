@@ -2,18 +2,18 @@
  "Vpcs": [
   {
    "ClassicLinkEnabled": false, 
-   "VpcId": "vpc-72850617", 
-   "Tags": []
+   "Tags": [
+    {
+     "Key": "Name", 
+     "Value": "ratultest"
+    }
+   ], 
+   "VpcId": "vpc-1dc49479"
   }, 
   {
    "ClassicLinkEnabled": false, 
-   "VpcId": "vpc-1dc49479", 
-   "Tags": [
-    {
-     "Value": "ratultest", 
-     "Key": "Name"
-    }
-   ]
+   "Tags": [], 
+   "VpcId": "vpc-72850617"
   }
  ]
 }

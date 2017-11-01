@@ -2,38 +2,38 @@
  "Vpcs": [
   {
    "ClassicLinkEnabled": false, 
-   "VpcId": "vpc-815775e7", 
    "Tags": [
     {
-     "Value": "GNS3-BGP-Test", 
-     "Key": "Name"
+     "Key": "Name", 
+     "Value": "Demo-Test2"
     }
-   ]
+   ], 
+   "VpcId": "vpc-925131f4"
   }, 
   {
    "ClassicLinkEnabled": false, 
-   "VpcId": "vpc-b390fad5", 
    "Tags": [
     {
-     "Value": "Arista Demo", 
-     "Key": "Name"
+     "Key": "Name", 
+     "Value": "GNS3-BGP-Test"
     }
-   ]
+   ], 
+   "VpcId": "vpc-815775e7"
   }, 
   {
    "ClassicLinkEnabled": false, 
-   "VpcId": "vpc-925131f4", 
    "Tags": [
     {
-     "Value": "Demo-Test2", 
-     "Key": "Name"
+     "Key": "Name", 
+     "Value": "Arista Demo"
     }
-   ]
+   ], 
+   "VpcId": "vpc-b390fad5"
   }, 
   {
    "ClassicLinkEnabled": false, 
-   "VpcId": "vpc-f8fad69d", 
-   "Tags": []
+   "Tags": [], 
+   "VpcId": "vpc-f8fad69d"
   }
  ]
 }

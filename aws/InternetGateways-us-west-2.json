@@ -1,39 +1,39 @@
 {
  "InternetGateways": [
   {
-   "Tags": [], 
    "Attachments": [
     {
      "State": "available", 
      "VpcId": "vpc-925131f4"
     }
    ], 
-   "InternetGatewayId": "igw-fac5839d"
+   "InternetGatewayId": "igw-fac5839d", 
+   "Tags": []
   }, 
   {
-   "Tags": [], 
    "Attachments": [
     {
      "State": "available", 
      "VpcId": "vpc-f8fad69d"
     }
    ], 
-   "InternetGatewayId": "igw-068fee63"
+   "InternetGatewayId": "igw-068fee63", 
+   "Tags": []
   }, 
   {
-   "Tags": [
-    {
-     "Value": "Arista Demo", 
-     "Key": "Name"
-    }
-   ], 
    "Attachments": [
     {
      "State": "available", 
      "VpcId": "vpc-b390fad5"
     }
    ], 
-   "InternetGatewayId": "igw-9b93ddfc"
+   "InternetGatewayId": "igw-9b93ddfc", 
+   "Tags": [
+    {
+     "Key": "Name", 
+     "Value": "Arista Demo"
+    }
+   ]
   }
  ]
 }

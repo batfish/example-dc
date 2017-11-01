@@ -1,12 +1,12 @@
 {
  "Vpcs": [
   {
-   "VpcId": "vpc-1dc49479", 
-   "ClassicLinkDnsSupported": false
+   "ClassicLinkDnsSupported": false, 
+   "VpcId": "vpc-1dc49479"
   }, 
   {
-   "VpcId": "vpc-72850617", 
-   "ClassicLinkDnsSupported": false
+   "ClassicLinkDnsSupported": false, 
+   "VpcId": "vpc-72850617"
   }
  ]
 }

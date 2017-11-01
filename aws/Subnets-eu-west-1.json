@@ -1,40 +1,40 @@
 {
  "Subnets": [
   {
+   "AssignIpv6AddressOnCreation": false, 
    "AvailabilityZone": "eu-west-1c", 
    "AvailableIpAddressCount": 4091, 
+   "CidrBlock": "172.31.32.0/20", 
    "DefaultForAz": true, 
    "Ipv6CidrBlockAssociationSet": [], 
-   "VpcId": "vpc-6783c902", 
-   "State": "available", 
    "MapPublicIpOnLaunch": true, 
+   "State": "available", 
    "SubnetId": "subnet-49502c10", 
-   "CidrBlock": "172.31.32.0/20", 
-   "AssignIpv6AddressOnCreation": false
+   "VpcId": "vpc-6783c902"
   }, 
   {
+   "AssignIpv6AddressOnCreation": false, 
    "AvailabilityZone": "eu-west-1a", 
    "AvailableIpAddressCount": 4091, 
+   "CidrBlock": "172.31.0.0/20", 
    "DefaultForAz": true, 
    "Ipv6CidrBlockAssociationSet": [], 
-   "VpcId": "vpc-6783c902", 
-   "State": "available", 
    "MapPublicIpOnLaunch": true, 
+   "State": "available", 
    "SubnetId": "subnet-374d7152", 
-   "CidrBlock": "172.31.0.0/20", 
-   "AssignIpv6AddressOnCreation": false
+   "VpcId": "vpc-6783c902"
   }, 
   {
+   "AssignIpv6AddressOnCreation": false, 
    "AvailabilityZone": "eu-west-1b", 
    "AvailableIpAddressCount": 4091, 
+   "CidrBlock": "172.31.16.0/20", 
    "DefaultForAz": true, 
    "Ipv6CidrBlockAssociationSet": [], 
-   "VpcId": "vpc-6783c902", 
-   "State": "available", 
    "MapPublicIpOnLaunch": true, 
+   "State": "available", 
    "SubnetId": "subnet-0690b571", 
-   "CidrBlock": "172.31.16.0/20", 
-   "AssignIpv6AddressOnCreation": false
+   "VpcId": "vpc-6783c902"
   }
  ]
 }

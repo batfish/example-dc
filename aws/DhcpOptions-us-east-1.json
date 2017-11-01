@@ -3,20 +3,20 @@
   {
    "DhcpConfigurations": [
     {
+     "Key": "domain-name", 
      "Values": [
       {
        "Value": "ec2.internal"
       }
-     ], 
-     "Key": "domain-name"
+     ]
     }, 
     {
+     "Key": "domain-name-servers", 
      "Values": [
       {
        "Value": "AmazonProvidedDNS"
       }
-     ], 
-     "Key": "domain-name-servers"
+     ]
     }
    ], 
    "DhcpOptionsId": "dopt-470ad722"

@@ -1,14 +1,7 @@
 {
  "Vpcs": [
   {
-   "VpcId": "vpc-b390fad5", 
-   "InstanceTenancy": "default", 
-   "Tags": [
-    {
-     "Value": "Arista Demo", 
-     "Key": "Name"
-    }
-   ], 
+   "CidrBlock": "192.168.0.0/16", 
    "CidrBlockAssociationSet": [
     {
      "AssociationId": "vpc-cidr-assoc-c32b03ab", 
@@ -18,20 +11,20 @@
      }
     }
    ], 
-   "State": "available", 
    "DhcpOptionsId": "dopt-5870b93d", 
-   "CidrBlock": "192.168.0.0/16", 
-   "IsDefault": false
-  }, 
-  {
-   "VpcId": "vpc-925131f4", 
    "InstanceTenancy": "default", 
+   "IsDefault": false, 
+   "State": "available", 
    "Tags": [
     {
-     "Value": "Demo-Test2", 
-     "Key": "Name"
+     "Key": "Name", 
+     "Value": "Arista Demo"
     }
    ], 
+   "VpcId": "vpc-b390fad5"
+  }, 
+  {
+   "CidrBlock": "10.0.0.0/16", 
    "CidrBlockAssociationSet": [
     {
      "AssociationId": "vpc-cidr-assoc-6cfcdb04", 
@@ -41,14 +34,20 @@
      }
     }
    ], 
-   "State": "available", 
    "DhcpOptionsId": "dopt-5870b93d", 
-   "CidrBlock": "10.0.0.0/16", 
-   "IsDefault": false
+   "InstanceTenancy": "default", 
+   "IsDefault": false, 
+   "State": "available", 
+   "Tags": [
+    {
+     "Key": "Name", 
+     "Value": "Demo-Test2"
+    }
+   ], 
+   "VpcId": "vpc-925131f4"
   }, 
   {
-   "VpcId": "vpc-f8fad69d", 
-   "InstanceTenancy": "default", 
+   "CidrBlock": "172.31.0.0/16", 
    "CidrBlockAssociationSet": [
     {
      "AssociationId": "vpc-cidr-assoc-67602a0e", 
@@ -58,20 +57,14 @@
      }
     }
    ], 
-   "State": "available", 
    "DhcpOptionsId": "dopt-5870b93d", 
-   "CidrBlock": "172.31.0.0/16", 
-   "IsDefault": true
+   "InstanceTenancy": "default", 
+   "IsDefault": true, 
+   "State": "available", 
+   "VpcId": "vpc-f8fad69d"
   }, 
   {
-   "VpcId": "vpc-815775e7", 
-   "InstanceTenancy": "default", 
-   "Tags": [
-    {
-     "Value": "GNS3-BGP-Test", 
-     "Key": "Name"
-    }
-   ], 
+   "CidrBlock": "10.100.0.0/16", 
    "CidrBlockAssociationSet": [
     {
      "AssociationId": "vpc-cidr-assoc-222ecd49", 
@@ -81,10 +74,17 @@
      }
     }
    ], 
-   "State": "available", 
    "DhcpOptionsId": "dopt-5870b93d", 
-   "CidrBlock": "10.100.0.0/16", 
-   "IsDefault": false
+   "InstanceTenancy": "default", 
+   "IsDefault": false, 
+   "State": "available", 
+   "Tags": [
+    {
+     "Key": "Name", 
+     "Value": "GNS3-BGP-Test"
+    }
+   ], 
+   "VpcId": "vpc-815775e7"
   }
  ]
 }

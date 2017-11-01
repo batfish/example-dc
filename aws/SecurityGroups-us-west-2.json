@@ -1,42 +1,25 @@
 {
  "SecurityGroups": [
   {
-   "IpPermissionsEgress": [
-    {
-     "IpProtocol": "-1", 
-     "PrefixListIds": [], 
-     "IpRanges": [
-      {
-       "CidrIp": "0.0.0.0/0"
-      }
-     ], 
-     "UserIdGroupPairs": [], 
-     "Ipv6Ranges": []
-    }
-   ], 
    "Description": "Arista Demo Topology", 
-   "Tags": [
-    {
-     "Value": "Arista Demo", 
-     "Key": "Name"
-    }
-   ], 
+   "GroupId": "sg-331ad04e", 
+   "GroupName": "Arista Demo", 
    "IpPermissions": [
     {
      "IpProtocol": "-1", 
-     "PrefixListIds": [], 
      "IpRanges": [
       {
-       "Description": "ALL traffic within the VPC", 
-       "CidrIp": "192.168.0.0/16"
+       "CidrIp": "192.168.0.0/16", 
+       "Description": "ALL traffic within the VPC"
       }
      ], 
-     "UserIdGroupPairs": [], 
-     "Ipv6Ranges": []
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
+     "UserIdGroupPairs": []
     }, 
     {
-     "PrefixListIds": [], 
      "FromPort": 22, 
+     "IpProtocol": "tcp", 
      "IpRanges": [
       {
        "CidrIp": "38.140.26.4/32"
@@ -54,496 +37,513 @@
        "CidrIp": "0.0.0.0/0"
       }
      ], 
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
      "ToPort": 22, 
-     "IpProtocol": "tcp", 
-     "UserIdGroupPairs": [], 
-     "Ipv6Ranges": []
+     "UserIdGroupPairs": []
     }, 
     {
-     "PrefixListIds": [], 
      "FromPort": -1, 
+     "IpProtocol": "icmp", 
      "IpRanges": [
       {
        "CidrIp": "38.140.26.0/24"
       }
      ], 
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
      "ToPort": -1, 
-     "IpProtocol": "icmp", 
-     "UserIdGroupPairs": [], 
-     "Ipv6Ranges": []
+     "UserIdGroupPairs": []
     }
    ], 
-   "GroupName": "Arista Demo", 
-   "VpcId": "vpc-b390fad5", 
-   "OwnerId": "118292266645", 
-   "GroupId": "sg-331ad04e"
-  }, 
-  {
    "IpPermissionsEgress": [
     {
      "IpProtocol": "-1", 
-     "PrefixListIds": [], 
      "IpRanges": [
       {
        "CidrIp": "0.0.0.0/0"
       }
      ], 
-     "UserIdGroupPairs": [], 
-     "Ipv6Ranges": []
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
+     "UserIdGroupPairs": []
     }
    ], 
+   "OwnerId": "118292266645", 
+   "Tags": [
+    {
+     "Key": "Name", 
+     "Value": "Arista Demo"
+    }
+   ], 
+   "VpcId": "vpc-b390fad5"
+  }, 
+  {
    "Description": "default VPC security group", 
+   "GroupId": "sg-3dfb3140", 
+   "GroupName": "default", 
    "IpPermissions": [
     {
      "IpProtocol": "-1", 
-     "PrefixListIds": [], 
      "IpRanges": [], 
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
      "UserIdGroupPairs": [
       {
-       "UserId": "118292266645", 
-       "GroupId": "sg-3dfb3140"
+       "GroupId": "sg-3dfb3140", 
+       "UserId": "118292266645"
       }
-     ], 
-     "Ipv6Ranges": []
+     ]
     }
    ], 
-   "GroupName": "default", 
-   "VpcId": "vpc-b390fad5", 
-   "OwnerId": "118292266645", 
-   "GroupId": "sg-3dfb3140"
-  }, 
-  {
    "IpPermissionsEgress": [
     {
      "IpProtocol": "-1", 
-     "PrefixListIds": [], 
      "IpRanges": [
       {
        "CidrIp": "0.0.0.0/0"
       }
      ], 
-     "UserIdGroupPairs": [], 
-     "Ipv6Ranges": []
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
+     "UserIdGroupPairs": []
     }
    ], 
+   "OwnerId": "118292266645", 
+   "VpcId": "vpc-b390fad5"
+  }, 
+  {
    "Description": "default VPC security group", 
-   "IpPermissions": [
-    {
-     "IpProtocol": "-1", 
-     "PrefixListIds": [], 
-     "IpRanges": [
-      {
-       "CidrIp": "0.0.0.0/0"
-      }
-     ], 
-     "UserIdGroupPairs": [], 
-     "Ipv6Ranges": []
-    }
-   ], 
+   "GroupId": "sg-55510831", 
    "GroupName": "default", 
-   "VpcId": "vpc-f8fad69d", 
-   "OwnerId": "118292266645", 
-   "GroupId": "sg-55510831"
-  }, 
-  {
-   "IpPermissionsEgress": [
+   "IpPermissions": [
     {
      "IpProtocol": "-1", 
-     "PrefixListIds": [], 
      "IpRanges": [
       {
        "CidrIp": "0.0.0.0/0"
       }
      ], 
-     "UserIdGroupPairs": [], 
-     "Ipv6Ranges": []
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
+     "UserIdGroupPairs": []
     }
    ], 
+   "IpPermissionsEgress": [
+    {
+     "IpProtocol": "-1", 
+     "IpRanges": [
+      {
+       "CidrIp": "0.0.0.0/0"
+      }
+     ], 
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
+     "UserIdGroupPairs": []
+    }
+   ], 
+   "OwnerId": "118292266645", 
+   "VpcId": "vpc-f8fad69d"
+  }, 
+  {
    "Description": "launch-wizard-2 created 2015-11-22T18:20:09.343-08:00", 
+   "GroupId": "sg-6c4d1408", 
+   "GroupName": "launch-wizard-2", 
    "IpPermissions": [
     {
-     "PrefixListIds": [], 
      "FromPort": 80, 
+     "IpProtocol": "tcp", 
      "IpRanges": [
       {
        "CidrIp": "0.0.0.0/0"
       }
      ], 
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
      "ToPort": 80, 
-     "IpProtocol": "tcp", 
-     "UserIdGroupPairs": [], 
-     "Ipv6Ranges": []
+     "UserIdGroupPairs": []
     }, 
     {
-     "PrefixListIds": [], 
      "FromPort": 22, 
+     "IpProtocol": "tcp", 
      "IpRanges": [
       {
        "CidrIp": "0.0.0.0/0"
       }
      ], 
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
      "ToPort": 22, 
-     "IpProtocol": "tcp", 
-     "UserIdGroupPairs": [], 
-     "Ipv6Ranges": []
+     "UserIdGroupPairs": []
     }, 
     {
-     "PrefixListIds": [], 
      "FromPort": 443, 
+     "IpProtocol": "tcp", 
      "IpRanges": [
       {
        "CidrIp": "0.0.0.0/0"
       }
      ], 
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
      "ToPort": 443, 
-     "IpProtocol": "tcp", 
-     "UserIdGroupPairs": [], 
-     "Ipv6Ranges": []
+     "UserIdGroupPairs": []
     }
    ], 
-   "GroupName": "launch-wizard-2", 
-   "VpcId": "vpc-f8fad69d", 
-   "OwnerId": "118292266645", 
-   "GroupId": "sg-6c4d1408"
-  }, 
-  {
    "IpPermissionsEgress": [
     {
      "IpProtocol": "-1", 
-     "PrefixListIds": [], 
      "IpRanges": [
       {
        "CidrIp": "0.0.0.0/0"
       }
      ], 
-     "UserIdGroupPairs": [], 
-     "Ipv6Ranges": []
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
+     "UserIdGroupPairs": []
     }
    ], 
+   "OwnerId": "118292266645", 
+   "VpcId": "vpc-f8fad69d"
+  }, 
+  {
    "Description": "launch-wizard-8 created 2017-09-21T12:31:56.756-07:00", 
+   "GroupId": "sg-83b348fe", 
+   "GroupName": "launch-wizard-8", 
    "IpPermissions": [
     {
      "IpProtocol": "-1", 
-     "PrefixListIds": [], 
      "IpRanges": [
       {
        "CidrIp": "10.0.0.0/16"
       }
      ], 
-     "UserIdGroupPairs": [], 
-     "Ipv6Ranges": []
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
+     "UserIdGroupPairs": []
     }, 
     {
-     "PrefixListIds": [], 
      "FromPort": 22, 
+     "IpProtocol": "tcp", 
      "IpRanges": [
       {
        "CidrIp": "0.0.0.0/0"
       }
      ], 
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
      "ToPort": 22, 
-     "IpProtocol": "tcp", 
-     "UserIdGroupPairs": [], 
-     "Ipv6Ranges": []
+     "UserIdGroupPairs": []
     }
    ], 
-   "GroupName": "launch-wizard-8", 
-   "VpcId": "vpc-925131f4", 
-   "OwnerId": "118292266645", 
-   "GroupId": "sg-83b348fe"
-  }, 
-  {
    "IpPermissionsEgress": [
     {
      "IpProtocol": "-1", 
-     "PrefixListIds": [], 
      "IpRanges": [
       {
        "CidrIp": "0.0.0.0/0"
       }
      ], 
-     "UserIdGroupPairs": [], 
-     "Ipv6Ranges": []
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
+     "UserIdGroupPairs": []
     }
    ], 
+   "OwnerId": "118292266645", 
+   "VpcId": "vpc-925131f4"
+  }, 
+  {
    "Description": "launch-wizard-6 created 2017-09-20T20:50:23.815-07:00", 
+   "GroupId": "sg-94df21e9", 
+   "GroupName": "launch-wizard-6", 
+   "IpPermissions": [
+    {
+     "FromPort": 80, 
+     "IpProtocol": "tcp", 
+     "IpRanges": [
+      {
+       "CidrIp": "0.0.0.0/0"
+      }
+     ], 
+     "Ipv6Ranges": [
+      {
+       "CidrIpv6": "::/0"
+      }
+     ], 
+     "PrefixListIds": [], 
+     "ToPort": 80, 
+     "UserIdGroupPairs": []
+    }, 
+    {
+     "FromPort": 22, 
+     "IpProtocol": "tcp", 
+     "IpRanges": [
+      {
+       "CidrIp": "0.0.0.0/0"
+      }
+     ], 
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
+     "ToPort": 22, 
+     "UserIdGroupPairs": []
+    }, 
+    {
+     "FromPort": 443, 
+     "IpProtocol": "tcp", 
+     "IpRanges": [
+      {
+       "CidrIp": "0.0.0.0/0"
+      }
+     ], 
+     "Ipv6Ranges": [
+      {
+       "CidrIpv6": "::/0"
+      }
+     ], 
+     "PrefixListIds": [], 
+     "ToPort": 443, 
+     "UserIdGroupPairs": []
+    }, 
+    {
+     "FromPort": -1, 
+     "IpProtocol": "icmp", 
+     "IpRanges": [
+      {
+       "CidrIp": "0.0.0.0/0", 
+       "Description": "ICMP ALL"
+      }
+     ], 
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
+     "ToPort": -1, 
+     "UserIdGroupPairs": []
+    }
+   ], 
+   "IpPermissionsEgress": [
+    {
+     "IpProtocol": "-1", 
+     "IpRanges": [
+      {
+       "CidrIp": "0.0.0.0/0"
+      }
+     ], 
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
+     "UserIdGroupPairs": []
+    }
+   ], 
+   "OwnerId": "118292266645", 
    "Tags": [
     {
-     "Value": "", 
-     "Key": "Name"
+     "Key": "Name", 
+     "Value": ""
     }
    ], 
-   "IpPermissions": [
-    {
-     "PrefixListIds": [], 
-     "FromPort": 80, 
-     "IpRanges": [
-      {
-       "CidrIp": "0.0.0.0/0"
-      }
-     ], 
-     "ToPort": 80, 
-     "IpProtocol": "tcp", 
-     "UserIdGroupPairs": [], 
-     "Ipv6Ranges": [
-      {
-       "CidrIpv6": "::/0"
-      }
-     ]
-    }, 
-    {
-     "PrefixListIds": [], 
-     "FromPort": 22, 
-     "IpRanges": [
-      {
-       "CidrIp": "0.0.0.0/0"
-      }
-     ], 
-     "ToPort": 22, 
-     "IpProtocol": "tcp", 
-     "UserIdGroupPairs": [], 
-     "Ipv6Ranges": []
-    }, 
-    {
-     "PrefixListIds": [], 
-     "FromPort": 443, 
-     "IpRanges": [
-      {
-       "CidrIp": "0.0.0.0/0"
-      }
-     ], 
-     "ToPort": 443, 
-     "IpProtocol": "tcp", 
-     "UserIdGroupPairs": [], 
-     "Ipv6Ranges": [
-      {
-       "CidrIpv6": "::/0"
-      }
-     ]
-    }, 
-    {
-     "PrefixListIds": [], 
-     "FromPort": -1, 
-     "IpRanges": [
-      {
-       "Description": "ICMP ALL", 
-       "CidrIp": "0.0.0.0/0"
-      }
-     ], 
-     "ToPort": -1, 
-     "IpProtocol": "icmp", 
-     "UserIdGroupPairs": [], 
-     "Ipv6Ranges": []
-    }
-   ], 
-   "GroupName": "launch-wizard-6", 
-   "VpcId": "vpc-925131f4", 
-   "OwnerId": "118292266645", 
-   "GroupId": "sg-94df21e9"
+   "VpcId": "vpc-925131f4"
   }, 
   {
-   "IpPermissionsEgress": [
-    {
-     "IpProtocol": "-1", 
-     "PrefixListIds": [], 
-     "IpRanges": [
-      {
-       "CidrIp": "0.0.0.0/0"
-      }
-     ], 
-     "UserIdGroupPairs": [], 
-     "Ipv6Ranges": []
-    }
-   ], 
    "Description": "Created from the RDS Management Console", 
+   "GroupId": "sg-9a1f3ffe", 
+   "GroupName": "rds-launch-wizard", 
    "IpPermissions": [
     {
-     "PrefixListIds": [], 
      "FromPort": 3306, 
+     "IpProtocol": "tcp", 
      "IpRanges": [
       {
        "CidrIp": "0.0.0.0/0"
       }
      ], 
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
      "ToPort": 3306, 
-     "IpProtocol": "tcp", 
-     "UserIdGroupPairs": [], 
-     "Ipv6Ranges": []
+     "UserIdGroupPairs": []
     }
    ], 
-   "GroupName": "rds-launch-wizard", 
-   "VpcId": "vpc-f8fad69d", 
-   "OwnerId": "118292266645", 
-   "GroupId": "sg-9a1f3ffe"
-  }, 
-  {
    "IpPermissionsEgress": [
     {
      "IpProtocol": "-1", 
-     "PrefixListIds": [], 
      "IpRanges": [
       {
        "CidrIp": "0.0.0.0/0"
       }
      ], 
-     "UserIdGroupPairs": [], 
-     "Ipv6Ranges": []
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
+     "UserIdGroupPairs": []
     }
    ], 
+   "OwnerId": "118292266645", 
+   "VpcId": "vpc-f8fad69d"
+  }, 
+  {
    "Description": "launch-wizard-3 created 2017-07-27T00:40:28.313-07:00", 
+   "GroupId": "sg-a30183d9", 
+   "GroupName": "launch-wizard-3", 
    "IpPermissions": [
     {
-     "PrefixListIds": [], 
      "FromPort": 22, 
+     "IpProtocol": "tcp", 
      "IpRanges": [
       {
        "CidrIp": "71.231.80.18/32"
       }
      ], 
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
      "ToPort": 22, 
-     "IpProtocol": "tcp", 
-     "UserIdGroupPairs": [], 
-     "Ipv6Ranges": []
+     "UserIdGroupPairs": []
     }
    ], 
-   "GroupName": "launch-wizard-3", 
-   "VpcId": "vpc-f8fad69d", 
-   "OwnerId": "118292266645", 
-   "GroupId": "sg-a30183d9"
-  }, 
-  {
    "IpPermissionsEgress": [
     {
      "IpProtocol": "-1", 
-     "PrefixListIds": [], 
      "IpRanges": [
       {
        "CidrIp": "0.0.0.0/0"
       }
      ], 
-     "UserIdGroupPairs": [], 
-     "Ipv6Ranges": []
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
+     "UserIdGroupPairs": []
     }
    ], 
+   "OwnerId": "118292266645", 
+   "VpcId": "vpc-f8fad69d"
+  }, 
+  {
    "Description": "default VPC security group", 
+   "GroupId": "sg-adcd87d0", 
+   "GroupName": "default", 
+   "IpPermissions": [
+    {
+     "IpProtocol": "-1", 
+     "IpRanges": [
+      {
+       "CidrIp": "0.0.0.0/0"
+      }
+     ], 
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
+     "UserIdGroupPairs": []
+    }
+   ], 
+   "IpPermissionsEgress": [
+    {
+     "IpProtocol": "-1", 
+     "IpRanges": [
+      {
+       "CidrIp": "0.0.0.0/0"
+      }
+     ], 
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
+     "UserIdGroupPairs": []
+    }
+   ], 
+   "OwnerId": "118292266645", 
    "Tags": [
     {
-     "Value": "GNS3-BGP-Test-Default", 
-     "Key": "Name"
+     "Key": "Name", 
+     "Value": "GNS3-BGP-Test-Default"
     }
    ], 
-   "IpPermissions": [
-    {
-     "IpProtocol": "-1", 
-     "PrefixListIds": [], 
-     "IpRanges": [
-      {
-       "CidrIp": "0.0.0.0/0"
-      }
-     ], 
-     "UserIdGroupPairs": [], 
-     "Ipv6Ranges": []
-    }
-   ], 
-   "GroupName": "default", 
-   "VpcId": "vpc-815775e7", 
-   "OwnerId": "118292266645", 
-   "GroupId": "sg-adcd87d0"
+   "VpcId": "vpc-815775e7"
   }, 
   {
-   "IpPermissionsEgress": [
-    {
-     "IpProtocol": "-1", 
-     "PrefixListIds": [], 
-     "IpRanges": [
-      {
-       "CidrIp": "0.0.0.0/0"
-      }
-     ], 
-     "UserIdGroupPairs": [], 
-     "Ipv6Ranges": []
-    }
-   ], 
    "Description": "launch-wizard-1 created 2015-11-22T17:47:39.496-08:00", 
+   "GroupId": "sg-bb550cdf", 
+   "GroupName": "launch-wizard-1", 
    "IpPermissions": [
     {
-     "PrefixListIds": [], 
      "FromPort": 80, 
+     "IpProtocol": "tcp", 
      "IpRanges": [
       {
        "CidrIp": "0.0.0.0/0"
       }
      ], 
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
      "ToPort": 80, 
-     "IpProtocol": "tcp", 
-     "UserIdGroupPairs": [], 
-     "Ipv6Ranges": []
+     "UserIdGroupPairs": []
     }, 
     {
-     "PrefixListIds": [], 
      "FromPort": 22, 
+     "IpProtocol": "tcp", 
      "IpRanges": [
       {
        "CidrIp": "0.0.0.0/0"
       }
      ], 
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
      "ToPort": 22, 
-     "IpProtocol": "tcp", 
-     "UserIdGroupPairs": [], 
-     "Ipv6Ranges": []
+     "UserIdGroupPairs": []
     }, 
     {
-     "PrefixListIds": [], 
      "FromPort": 443, 
+     "IpProtocol": "tcp", 
      "IpRanges": [
       {
        "CidrIp": "0.0.0.0/0"
       }
      ], 
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
      "ToPort": 443, 
-     "IpProtocol": "tcp", 
-     "UserIdGroupPairs": [], 
-     "Ipv6Ranges": []
+     "UserIdGroupPairs": []
     }
    ], 
-   "GroupName": "launch-wizard-1", 
-   "VpcId": "vpc-f8fad69d", 
-   "OwnerId": "118292266645", 
-   "GroupId": "sg-bb550cdf"
-  }, 
-  {
    "IpPermissionsEgress": [
     {
      "IpProtocol": "-1", 
-     "PrefixListIds": [], 
      "IpRanges": [
       {
        "CidrIp": "0.0.0.0/0"
       }
      ], 
-     "UserIdGroupPairs": [], 
-     "Ipv6Ranges": []
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
+     "UserIdGroupPairs": []
     }
    ], 
+   "OwnerId": "118292266645", 
+   "VpcId": "vpc-f8fad69d"
+  }, 
+  {
    "Description": "default VPC security group", 
+   "GroupId": "sg-eed02393", 
+   "GroupName": "default", 
    "IpPermissions": [
     {
      "IpProtocol": "-1", 
-     "PrefixListIds": [], 
      "IpRanges": [], 
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
      "UserIdGroupPairs": [
       {
-       "UserId": "118292266645", 
-       "GroupId": "sg-eed02393"
+       "GroupId": "sg-eed02393", 
+       "UserId": "118292266645"
       }
-     ], 
-     "Ipv6Ranges": []
+     ]
     }
    ], 
-   "GroupName": "default", 
-   "VpcId": "vpc-925131f4", 
+   "IpPermissionsEgress": [
+    {
+     "IpProtocol": "-1", 
+     "IpRanges": [
+      {
+       "CidrIp": "0.0.0.0/0"
+      }
+     ], 
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
+     "UserIdGroupPairs": []
+    }
+   ], 
    "OwnerId": "118292266645", 
-   "GroupId": "sg-eed02393"
+   "VpcId": "vpc-925131f4"
   }
  ]
 }

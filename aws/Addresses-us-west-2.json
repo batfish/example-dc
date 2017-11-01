@@ -1,9 +1,9 @@
 {
  "Addresses": [
   {
-   "PublicIp": "34.214.188.89", 
+   "AllocationId": "eipalloc-c0da79fd", 
    "Domain": "vpc", 
-   "AllocationId": "eipalloc-c0da79fd"
+   "PublicIp": "34.214.188.89"
   }
  ]
 }

@@ -1,20 +1,20 @@
 {
  "PrefixLists": [
   {
-   "PrefixListName": "com.amazonaws.eu-west-1.dynamodb", 
    "Cidrs": [
     "52.94.5.0/24", 
     "52.94.24.0/23"
    ], 
-   "PrefixListId": "pl-6fa54006"
+   "PrefixListId": "pl-6fa54006", 
+   "PrefixListName": "com.amazonaws.eu-west-1.dynamodb"
   }, 
   {
-   "PrefixListName": "com.amazonaws.eu-west-1.s3", 
    "Cidrs": [
     "52.218.0.0/17", 
     "54.231.128.0/19"
    ], 
-   "PrefixListId": "pl-6da54004"
+   "PrefixListId": "pl-6da54004", 
+   "PrefixListName": "com.amazonaws.eu-west-1.s3"
   }
  ]
 }
