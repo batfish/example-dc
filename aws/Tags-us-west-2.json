@@ -1,27 +1,45 @@
 {
  "Tags": [
   {
-   "ResourceType": "vpn-connection", 
-   "ResourceId": "vpn-ba2e34a8", 
-   "Value": "GNS3-BGP-Test", 
+   "ResourceType": "subnet", 
+   "ResourceId": "subnet-073b8061", 
+   "Value": "border_01-core_01", 
    "Key": "Name"
   }, 
   {
-   "ResourceType": "route-table", 
-   "ResourceId": "rtb-296bf350", 
-   "Value": "GNS3-BGP-Test", 
+   "ResourceType": "subnet", 
+   "ResourceId": "subnet-1641fa70", 
+   "Value": "Management", 
    "Key": "Name"
   }, 
   {
-   "ResourceType": "route-table", 
-   "ResourceId": "rtb-9fa476e6", 
-   "Value": "Arista Demo", 
+   "ResourceType": "subnet", 
+   "ResourceId": "subnet-30398256", 
+   "Value": "border_02-core_02", 
    "Key": "Name"
   }, 
   {
-   "ResourceType": "internet-gateway", 
-   "ResourceId": "igw-9b93ddfc", 
-   "Value": "Arista Demo", 
+   "ResourceType": "subnet", 
+   "ResourceId": "subnet-62f14104", 
+   "Value": "Public subnet", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "subnet", 
+   "ResourceId": "subnet-7044ff16", 
+   "Value": "border_01-core_02", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "subnet", 
+   "ResourceId": "subnet-8d0cbdeb", 
+   "Value": "Private subnet", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "subnet", 
+   "ResourceId": "subnet-f73a8191", 
+   "Value": "border_02-core_01", 
    "Key": "Name"
   }, 
   {
@@ -40,6 +58,42 @@
    "ResourceType": "image", 
    "ResourceId": "ami-a0bc40d8", 
    "Value": "Arista-CVP Original", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "vpn-connection", 
+   "ResourceId": "vpn-ba2e34a8", 
+   "Value": "GNS3-BGP-Test", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "vpn-gateway", 
+   "ResourceId": "vgw-81fd279f", 
+   "Value": "lhr-aws-01", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "network-acl", 
+   "ResourceId": "acl-7b78771d", 
+   "Value": "Arista Demo", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "internet-gateway", 
+   "ResourceId": "igw-9b93ddfc", 
+   "Value": "Arista Demo", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "route-table", 
+   "ResourceId": "rtb-296bf350", 
+   "Value": "GNS3-BGP-Test", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "route-table", 
+   "ResourceId": "rtb-9fa476e6", 
+   "Value": "Arista Demo", 
    "Key": "Name"
   }, 
   {
@@ -106,66 +160,6 @@
    "ResourceType": "instance", 
    "ResourceId": "i-0b26ec095feb42260", 
    "Value": "core_01", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "vpn-gateway", 
-   "ResourceId": "vgw-81fd279f", 
-   "Value": "lhr-aws-01", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "network-acl", 
-   "ResourceId": "acl-7b78771d", 
-   "Value": "Arista Demo", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "subnet", 
-   "ResourceId": "subnet-073b8061", 
-   "Value": "border_01-core_01", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "subnet", 
-   "ResourceId": "subnet-1641fa70", 
-   "Value": "Management", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "subnet", 
-   "ResourceId": "subnet-30398256", 
-   "Value": "border_02-core_02", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "subnet", 
-   "ResourceId": "subnet-62f14104", 
-   "Value": "Public subnet", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "subnet", 
-   "ResourceId": "subnet-7044ff16", 
-   "Value": "border_01-core_02", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "subnet", 
-   "ResourceId": "subnet-8d0cbdeb", 
-   "Value": "Private subnet", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "subnet", 
-   "ResourceId": "subnet-f73a8191", 
-   "Value": "border_02-core_01", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "customer-gateway", 
-   "ResourceId": "cgw-fb76ace5", 
-   "Value": "lhr-border-02", 
    "Key": "Name"
   }, 
   {
@@ -304,6 +298,12 @@
    "ResourceType": "network-interface", 
    "ResourceId": "eni-a50c2b8b", 
    "Value": "border_02-eth1", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "customer-gateway", 
+   "ResourceId": "cgw-fb76ace5", 
+   "Value": "lhr-border-02", 
    "Key": "Name"
   }
  ]
