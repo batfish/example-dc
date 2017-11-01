@@ -2,16 +2,6 @@
  "Vpcs": [
   {
    "ClassicLinkEnabled": false, 
-   "VpcId": "vpc-815775e7", 
-   "Tags": [
-    {
-     "Value": "GNS3-BGP-Test", 
-     "Key": "Name"
-    }
-   ]
-  }, 
-  {
-   "ClassicLinkEnabled": false, 
    "VpcId": "vpc-b390fad5", 
    "Tags": [
     {
@@ -19,6 +9,11 @@
      "Key": "Name"
     }
    ]
+  }, 
+  {
+   "ClassicLinkEnabled": false, 
+   "VpcId": "vpc-f8fad69d", 
+   "Tags": []
   }, 
   {
    "ClassicLinkEnabled": false, 
@@ -32,8 +27,13 @@
   }, 
   {
    "ClassicLinkEnabled": false, 
-   "VpcId": "vpc-f8fad69d", 
-   "Tags": []
+   "VpcId": "vpc-815775e7", 
+   "Tags": [
+    {
+     "Value": "GNS3-BGP-Test", 
+     "Key": "Name"
+    }
+   ]
   }
  ]
 }
