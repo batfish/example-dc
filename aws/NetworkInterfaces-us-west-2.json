@@ -45,37 +45,6 @@
    "VpcId": "vpc-b390fad5"
   }, 
   {
-   "AvailabilityZone": "us-west-2a", 
-   "Description": "", 
-   "Groups": [
-    {
-     "GroupId": "sg-83b348fe", 
-     "GroupName": "launch-wizard-8"
-    }
-   ], 
-   "InterfaceType": "interface", 
-   "Ipv6Addresses": [], 
-   "MacAddress": "02:e5:3b:63:78:f8", 
-   "NetworkInterfaceId": "eni-822b55ac", 
-   "OwnerId": "118292266645", 
-   "PrivateDnsName": "ip-10-0-0-30.us-west-2.compute.internal", 
-   "PrivateIpAddress": "10.0.0.30", 
-   "PrivateIpAddresses": [
-    {
-     "Primary": true, 
-     "PrivateDnsName": "ip-10-0-0-30.us-west-2.compute.internal", 
-     "PrivateIpAddress": "10.0.0.30"
-    }
-   ], 
-   "RequesterId": "AIDAJOKFVTRLSKJXFTD2K", 
-   "RequesterManaged": false, 
-   "SourceDestCheck": true, 
-   "Status": "available", 
-   "SubnetId": "subnet-62f14104", 
-   "TagSet": [], 
-   "VpcId": "vpc-925131f4"
-  }, 
-  {
    "Attachment": {
     "AttachTime": "2017-09-26 23:55:53+00:00", 
     "AttachmentId": "eni-attach-f9e96a17", 
@@ -113,6 +82,37 @@
    "SubnetId": "subnet-1641fa70", 
    "TagSet": [], 
    "VpcId": "vpc-b390fad5"
+  }, 
+  {
+   "AvailabilityZone": "us-west-2a", 
+   "Description": "", 
+   "Groups": [
+    {
+     "GroupId": "sg-83b348fe", 
+     "GroupName": "launch-wizard-8"
+    }
+   ], 
+   "InterfaceType": "interface", 
+   "Ipv6Addresses": [], 
+   "MacAddress": "02:e5:3b:63:78:f8", 
+   "NetworkInterfaceId": "eni-822b55ac", 
+   "OwnerId": "118292266645", 
+   "PrivateDnsName": "ip-10-0-0-30.us-west-2.compute.internal", 
+   "PrivateIpAddress": "10.0.0.30", 
+   "PrivateIpAddresses": [
+    {
+     "Primary": true, 
+     "PrivateDnsName": "ip-10-0-0-30.us-west-2.compute.internal", 
+     "PrivateIpAddress": "10.0.0.30"
+    }
+   ], 
+   "RequesterId": "AIDAJOKFVTRLSKJXFTD2K", 
+   "RequesterManaged": false, 
+   "SourceDestCheck": true, 
+   "Status": "available", 
+   "SubnetId": "subnet-62f14104", 
+   "TagSet": [], 
+   "VpcId": "vpc-925131f4"
   }, 
   {
    "Attachment": {
@@ -249,50 +249,6 @@
    "VpcId": "vpc-b390fad5"
   }, 
   {
-   "Attachment": {
-    "AttachTime": "2017-09-26 21:56:54+00:00", 
-    "AttachmentId": "eni-attach-4e8707a0", 
-    "DeleteOnTermination": true, 
-    "DeviceIndex": 0, 
-    "InstanceId": "i-0383fda87c012141d", 
-    "InstanceOwnerId": "118292266645", 
-    "Status": "attached"
-   }, 
-   "AvailabilityZone": "us-west-2a", 
-   "Description": "Primary network interface", 
-   "Groups": [
-    {
-     "GroupId": "sg-331ad04e", 
-     "GroupName": "Arista Demo"
-    }
-   ], 
-   "InterfaceType": "interface", 
-   "Ipv6Addresses": [], 
-   "MacAddress": "02:5e:29:dd:2e:86", 
-   "NetworkInterfaceId": "eni-8c7753a2", 
-   "OwnerId": "118292266645", 
-   "PrivateDnsName": "ip-192-168-1-243.us-west-2.compute.internal", 
-   "PrivateIpAddress": "192.168.1.243", 
-   "PrivateIpAddresses": [
-    {
-     "Primary": true, 
-     "PrivateDnsName": "ip-192-168-1-243.us-west-2.compute.internal", 
-     "PrivateIpAddress": "192.168.1.243"
-    }
-   ], 
-   "RequesterManaged": false, 
-   "SourceDestCheck": true, 
-   "Status": "in-use", 
-   "SubnetId": "subnet-1641fa70", 
-   "TagSet": [
-    {
-     "Key": "Name", 
-     "Value": "border_01-eth0"
-    }
-   ], 
-   "VpcId": "vpc-b390fad5"
-  }, 
-  {
    "AvailabilityZone": "us-west-2a", 
    "Description": "", 
    "Groups": [
@@ -364,6 +320,50 @@
     {
      "Key": "Name", 
      "Value": "core_01-eth1"
+    }
+   ], 
+   "VpcId": "vpc-b390fad5"
+  }, 
+  {
+   "Attachment": {
+    "AttachTime": "2017-09-26 21:56:54+00:00", 
+    "AttachmentId": "eni-attach-4e8707a0", 
+    "DeleteOnTermination": true, 
+    "DeviceIndex": 0, 
+    "InstanceId": "i-0383fda87c012141d", 
+    "InstanceOwnerId": "118292266645", 
+    "Status": "attached"
+   }, 
+   "AvailabilityZone": "us-west-2a", 
+   "Description": "Primary network interface", 
+   "Groups": [
+    {
+     "GroupId": "sg-331ad04e", 
+     "GroupName": "Arista Demo"
+    }
+   ], 
+   "InterfaceType": "interface", 
+   "Ipv6Addresses": [], 
+   "MacAddress": "02:5e:29:dd:2e:86", 
+   "NetworkInterfaceId": "eni-8c7753a2", 
+   "OwnerId": "118292266645", 
+   "PrivateDnsName": "ip-192-168-1-243.us-west-2.compute.internal", 
+   "PrivateIpAddress": "192.168.1.243", 
+   "PrivateIpAddresses": [
+    {
+     "Primary": true, 
+     "PrivateDnsName": "ip-192-168-1-243.us-west-2.compute.internal", 
+     "PrivateIpAddress": "192.168.1.243"
+    }
+   ], 
+   "RequesterManaged": false, 
+   "SourceDestCheck": true, 
+   "Status": "in-use", 
+   "SubnetId": "subnet-1641fa70", 
+   "TagSet": [
+    {
+     "Key": "Name", 
+     "Value": "border_01-eth0"
     }
    ], 
    "VpcId": "vpc-b390fad5"

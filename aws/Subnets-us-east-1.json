@@ -26,18 +26,6 @@
   }, 
   {
    "AssignIpv6AddressOnCreation": false, 
-   "AvailabilityZone": "us-east-1a", 
-   "AvailableIpAddressCount": 4091, 
-   "CidrBlock": "172.31.16.0/20", 
-   "DefaultForAz": true, 
-   "Ipv6CidrBlockAssociationSet": [], 
-   "MapPublicIpOnLaunch": true, 
-   "State": "available", 
-   "SubnetId": "subnet-5d617e04", 
-   "VpcId": "vpc-a34dc3c7"
-  }, 
-  {
-   "AssignIpv6AddressOnCreation": false, 
    "AvailabilityZone": "us-east-1d", 
    "AvailableIpAddressCount": 4091, 
    "CidrBlock": "172.31.0.0/20", 
@@ -46,6 +34,18 @@
    "MapPublicIpOnLaunch": true, 
    "State": "available", 
    "SubnetId": "subnet-a73bfed1", 
+   "VpcId": "vpc-a34dc3c7"
+  }, 
+  {
+   "AssignIpv6AddressOnCreation": false, 
+   "AvailabilityZone": "us-east-1a", 
+   "AvailableIpAddressCount": 4091, 
+   "CidrBlock": "172.31.16.0/20", 
+   "DefaultForAz": true, 
+   "Ipv6CidrBlockAssociationSet": [], 
+   "MapPublicIpOnLaunch": true, 
+   "State": "available", 
+   "SubnetId": "subnet-5d617e04", 
    "VpcId": "vpc-a34dc3c7"
   }, 
   {

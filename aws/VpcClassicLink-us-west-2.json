@@ -5,6 +5,21 @@
    "Tags": [
     {
      "Key": "Name", 
+     "Value": "Arista Demo"
+    }
+   ], 
+   "VpcId": "vpc-b390fad5"
+  }, 
+  {
+   "ClassicLinkEnabled": false, 
+   "Tags": [], 
+   "VpcId": "vpc-f8fad69d"
+  }, 
+  {
+   "ClassicLinkEnabled": false, 
+   "Tags": [
+    {
+     "Key": "Name", 
      "Value": "Demo-Test2"
     }
    ], 
@@ -19,21 +34,6 @@
     }
    ], 
    "VpcId": "vpc-815775e7"
-  }, 
-  {
-   "ClassicLinkEnabled": false, 
-   "Tags": [
-    {
-     "Key": "Name", 
-     "Value": "Arista Demo"
-    }
-   ], 
-   "VpcId": "vpc-b390fad5"
-  }, 
-  {
-   "ClassicLinkEnabled": false, 
-   "Tags": [], 
-   "VpcId": "vpc-f8fad69d"
   }
  ]
 }
