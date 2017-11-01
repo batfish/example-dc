@@ -2,6 +2,16 @@
  "Vpcs": [
   {
    "ClassicLinkEnabled": false, 
+   "VpcId": "vpc-815775e7", 
+   "Tags": [
+    {
+     "Value": "GNS3-BGP-Test", 
+     "Key": "Name"
+    }
+   ]
+  }, 
+  {
+   "ClassicLinkEnabled": false, 
    "VpcId": "vpc-b390fad5", 
    "Tags": [
     {
@@ -16,16 +26,6 @@
    "Tags": [
     {
      "Value": "Demo-Test2", 
-     "Key": "Name"
-    }
-   ]
-  }, 
-  {
-   "ClassicLinkEnabled": false, 
-   "VpcId": "vpc-815775e7", 
-   "Tags": [
-    {
-     "Value": "GNS3-BGP-Test", 
      "Key": "Name"
     }
    ]

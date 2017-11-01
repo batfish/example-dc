@@ -1,9 +1,9 @@
 {
  "Tags": [
   {
-   "ResourceType": "subnet", 
-   "ResourceId": "subnet-1013e177", 
-   "Value": "Public subnet", 
+   "ResourceType": "security-group", 
+   "ResourceId": "sg-fefede99", 
+   "Value": "intentionet-test", 
    "Key": "Name"
   }, 
   {
@@ -13,9 +13,9 @@
    "Key": "Name"
   }, 
   {
-   "ResourceType": "security-group", 
-   "ResourceId": "sg-fefede99", 
-   "Value": "intentionet-test", 
+   "ResourceType": "subnet", 
+   "ResourceId": "subnet-1013e177", 
+   "Value": "Public subnet", 
    "Key": "Name"
   }
  ]

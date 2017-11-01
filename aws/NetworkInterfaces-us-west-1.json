@@ -100,6 +100,55 @@
   }, 
   {
    "Status": "in-use", 
+   "MacAddress": "02:11:e7:52:e8:7e", 
+   "SourceDestCheck": true, 
+   "AvailabilityZone": "us-west-1a", 
+   "Description": "RDSNetworkInterface", 
+   "NetworkInterfaceId": "eni-abbdc381", 
+   "VpcId": "vpc-72850617", 
+   "PrivateIpAddresses": [
+    {
+     "PrivateDnsName": "ip-172-31-30-154.us-west-1.compute.internal", 
+     "PrivateIpAddress": "172.31.30.154", 
+     "Primary": true, 
+     "Association": {
+      "PublicIp": "52.9.188.106", 
+      "PublicDnsName": "ec2-52-9-188-106.us-west-1.compute.amazonaws.com", 
+      "IpOwnerId": "amazon-rds"
+     }
+    }
+   ], 
+   "RequesterManaged": true, 
+   "PrivateDnsName": "ip-172-31-30-154.us-west-1.compute.internal", 
+   "RequesterId": "amazon-rds", 
+   "InterfaceType": "interface", 
+   "Attachment": {
+    "Status": "attached", 
+    "DeviceIndex": 1, 
+    "AttachTime": "2017-02-04 00:24:42+00:00", 
+    "DeleteOnTermination": false, 
+    "AttachmentId": "eni-attach-89627fe6", 
+    "InstanceOwnerId": "amazon-rds"
+   }, 
+   "Groups": [
+    {
+     "GroupName": "intentionet-dev", 
+     "GroupId": "sg-40ac0727"
+    }
+   ], 
+   "Ipv6Addresses": [], 
+   "OwnerId": "118292266645", 
+   "PrivateIpAddress": "172.31.30.154", 
+   "SubnetId": "subnet-2b12664e", 
+   "TagSet": [], 
+   "Association": {
+    "PublicIp": "52.9.188.106", 
+    "PublicDnsName": "ec2-52-9-188-106.us-west-1.compute.amazonaws.com", 
+    "IpOwnerId": "amazon-rds"
+   }
+  }, 
+  {
+   "Status": "in-use", 
    "MacAddress": "02:e6:f9:04:48:c0", 
    "SourceDestCheck": true, 
    "AvailabilityZone": "us-west-1a", 
@@ -194,55 +243,6 @@
     "PublicIp": "54.153.65.67", 
     "PublicDnsName": "ec2-54-153-65-67.us-west-1.compute.amazonaws.com", 
     "IpOwnerId": "amazon"
-   }
-  }, 
-  {
-   "Status": "in-use", 
-   "MacAddress": "02:11:e7:52:e8:7e", 
-   "SourceDestCheck": true, 
-   "AvailabilityZone": "us-west-1a", 
-   "Description": "RDSNetworkInterface", 
-   "NetworkInterfaceId": "eni-abbdc381", 
-   "VpcId": "vpc-72850617", 
-   "PrivateIpAddresses": [
-    {
-     "PrivateDnsName": "ip-172-31-30-154.us-west-1.compute.internal", 
-     "PrivateIpAddress": "172.31.30.154", 
-     "Primary": true, 
-     "Association": {
-      "PublicIp": "52.9.188.106", 
-      "PublicDnsName": "ec2-52-9-188-106.us-west-1.compute.amazonaws.com", 
-      "IpOwnerId": "amazon-rds"
-     }
-    }
-   ], 
-   "RequesterManaged": true, 
-   "PrivateDnsName": "ip-172-31-30-154.us-west-1.compute.internal", 
-   "RequesterId": "amazon-rds", 
-   "InterfaceType": "interface", 
-   "Attachment": {
-    "Status": "attached", 
-    "DeviceIndex": 1, 
-    "AttachTime": "2017-02-04 00:24:42+00:00", 
-    "DeleteOnTermination": false, 
-    "AttachmentId": "eni-attach-89627fe6", 
-    "InstanceOwnerId": "amazon-rds"
-   }, 
-   "Groups": [
-    {
-     "GroupName": "intentionet-dev", 
-     "GroupId": "sg-40ac0727"
-    }
-   ], 
-   "Ipv6Addresses": [], 
-   "OwnerId": "118292266645", 
-   "PrivateIpAddress": "172.31.30.154", 
-   "SubnetId": "subnet-2b12664e", 
-   "TagSet": [], 
-   "Association": {
-    "PublicIp": "52.9.188.106", 
-    "PublicDnsName": "ec2-52-9-188-106.us-west-1.compute.amazonaws.com", 
-    "IpOwnerId": "amazon-rds"
    }
   }
  ]
