@@ -2,16 +2,6 @@
  "Vpcs": [
   {
    "ClassicLinkEnabled": false, 
-   "Tags": [
-    {
-     "Key": "Name", 
-     "Value": "Arista Demo"
-    }
-   ], 
-   "VpcId": "vpc-b390fad5"
-  }, 
-  {
-   "ClassicLinkEnabled": false, 
    "Tags": [], 
    "VpcId": "vpc-f8fad69d"
   }, 
@@ -24,6 +14,16 @@
     }
    ], 
    "VpcId": "vpc-925131f4"
+  }, 
+  {
+   "ClassicLinkEnabled": false, 
+   "Tags": [
+    {
+     "Key": "Name", 
+     "Value": "Arista Demo"
+    }
+   ], 
+   "VpcId": "vpc-b390fad5"
   }, 
   {
    "ClassicLinkEnabled": false, 

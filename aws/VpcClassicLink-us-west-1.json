@@ -2,6 +2,11 @@
  "Vpcs": [
   {
    "ClassicLinkEnabled": false, 
+   "Tags": [], 
+   "VpcId": "vpc-72850617"
+  }, 
+  {
+   "ClassicLinkEnabled": false, 
    "Tags": [
     {
      "Key": "Name", 
@@ -9,11 +14,6 @@
     }
    ], 
    "VpcId": "vpc-1dc49479"
-  }, 
-  {
-   "ClassicLinkEnabled": false, 
-   "Tags": [], 
-   "VpcId": "vpc-72850617"
   }
  ]
 }
