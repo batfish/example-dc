@@ -1,29 +1,29 @@
 {
  "InstanceStatuses": [
   {
-   "AvailabilityZone": "us-west-1c", 
    "InstanceId": "i-0af01e052cc039588", 
    "InstanceState": {
     "Code": 16, 
     "Name": "running"
    }, 
-   "InstanceStatus": {
-    "Details": [
-     {
-      "Name": "reachability", 
-      "Status": "passed"
-     }
-    ], 
-    "Status": "ok"
-   }, 
+   "AvailabilityZone": "us-west-1c", 
    "SystemStatus": {
+    "Status": "ok", 
     "Details": [
      {
-      "Name": "reachability", 
-      "Status": "passed"
+      "Status": "passed", 
+      "Name": "reachability"
      }
-    ], 
-    "Status": "ok"
+    ]
+   }, 
+   "InstanceStatus": {
+    "Status": "ok", 
+    "Details": [
+     {
+      "Status": "passed", 
+      "Name": "reachability"
+     }
+    ]
    }
   }
  ]

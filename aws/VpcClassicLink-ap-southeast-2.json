@@ -2,8 +2,8 @@
  "Vpcs": [
   {
    "ClassicLinkEnabled": false, 
-   "Tags": [], 
-   "VpcId": "vpc-9b35bafe"
+   "VpcId": "vpc-9b35bafe", 
+   "Tags": []
   }
  ]
 }

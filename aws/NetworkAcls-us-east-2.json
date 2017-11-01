@@ -3,55 +3,55 @@
   {
    "Associations": [
     {
-     "NetworkAclAssociationId": "aclassoc-396f1950", 
+     "SubnetId": "subnet-1b22da60", 
      "NetworkAclId": "acl-072d8c6e", 
-     "SubnetId": "subnet-1b22da60"
+     "NetworkAclAssociationId": "aclassoc-396f1950"
     }, 
     {
-     "NetworkAclAssociationId": "aclassoc-266f194f", 
+     "SubnetId": "subnet-8c12a6e5", 
      "NetworkAclId": "acl-072d8c6e", 
-     "SubnetId": "subnet-8c12a6e5"
+     "NetworkAclAssociationId": "aclassoc-266f194f"
     }, 
     {
-     "NetworkAclAssociationId": "aclassoc-386f1951", 
+     "SubnetId": "subnet-da3f2390", 
      "NetworkAclId": "acl-072d8c6e", 
-     "SubnetId": "subnet-da3f2390"
+     "NetworkAclAssociationId": "aclassoc-386f1951"
     }
    ], 
+   "NetworkAclId": "acl-072d8c6e", 
+   "VpcId": "vpc-5d2b8e34", 
+   "Tags": [], 
    "Entries": [
     {
-     "CidrBlock": "0.0.0.0/0", 
+     "RuleNumber": 100, 
+     "Protocol": "-1", 
      "Egress": true, 
-     "Protocol": "-1", 
-     "RuleAction": "allow", 
-     "RuleNumber": 100
+     "CidrBlock": "0.0.0.0/0", 
+     "RuleAction": "allow"
     }, 
     {
-     "CidrBlock": "0.0.0.0/0", 
+     "RuleNumber": 32767, 
+     "Protocol": "-1", 
      "Egress": true, 
-     "Protocol": "-1", 
-     "RuleAction": "deny", 
-     "RuleNumber": 32767
+     "CidrBlock": "0.0.0.0/0", 
+     "RuleAction": "deny"
     }, 
     {
-     "CidrBlock": "0.0.0.0/0", 
-     "Egress": false, 
+     "RuleNumber": 100, 
      "Protocol": "-1", 
-     "RuleAction": "allow", 
-     "RuleNumber": 100
+     "Egress": false, 
+     "CidrBlock": "0.0.0.0/0", 
+     "RuleAction": "allow"
     }, 
     {
-     "CidrBlock": "0.0.0.0/0", 
-     "Egress": false, 
+     "RuleNumber": 32767, 
      "Protocol": "-1", 
-     "RuleAction": "deny", 
-     "RuleNumber": 32767
+     "Egress": false, 
+     "CidrBlock": "0.0.0.0/0", 
+     "RuleAction": "deny"
     }
    ], 
-   "IsDefault": true, 
-   "NetworkAclId": "acl-072d8c6e", 
-   "Tags": [], 
-   "VpcId": "vpc-5d2b8e34"
+   "IsDefault": true
   }
  ]
 }

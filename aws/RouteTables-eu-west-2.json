@@ -3,29 +3,29 @@
   {
    "Associations": [
     {
-     "Main": true, 
      "RouteTableAssociationId": "rtbassoc-9f5c9df6", 
+     "Main": true, 
      "RouteTableId": "rtb-5f629836"
     }
    ], 
-   "PropagatingVgws": [], 
    "RouteTableId": "rtb-5f629836", 
+   "VpcId": "vpc-e618e38f", 
+   "PropagatingVgws": [], 
+   "Tags": [], 
    "Routes": [
     {
-     "DestinationCidrBlock": "172.31.0.0/16", 
      "GatewayId": "local", 
-     "Origin": "CreateRouteTable", 
-     "State": "active"
+     "DestinationCidrBlock": "172.31.0.0/16", 
+     "State": "active", 
+     "Origin": "CreateRouteTable"
     }, 
     {
-     "DestinationCidrBlock": "0.0.0.0/0", 
      "GatewayId": "igw-1a827f73", 
-     "Origin": "CreateRoute", 
-     "State": "active"
+     "DestinationCidrBlock": "0.0.0.0/0", 
+     "State": "active", 
+     "Origin": "CreateRoute"
     }
-   ], 
-   "Tags": [], 
-   "VpcId": "vpc-e618e38f"
+   ]
   }
  ]
 }

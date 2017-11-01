@@ -1,8 +1,8 @@
 {
  "Vpcs": [
   {
-   "ClassicLinkDnsSupported": false, 
-   "VpcId": "vpc-2c22b549"
+   "VpcId": "vpc-2c22b549", 
+   "ClassicLinkDnsSupported": false
   }
  ]
 }

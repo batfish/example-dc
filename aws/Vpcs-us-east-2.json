@@ -1,7 +1,8 @@
 {
  "Vpcs": [
   {
-   "CidrBlock": "172.31.0.0/16", 
+   "VpcId": "vpc-5d2b8e34", 
+   "InstanceTenancy": "default", 
    "CidrBlockAssociationSet": [
     {
      "AssociationId": "vpc-cidr-assoc-0fee1e66", 
@@ -11,11 +12,10 @@
      }
     }
    ], 
-   "DhcpOptionsId": "dopt-55f85e3c", 
-   "InstanceTenancy": "default", 
-   "IsDefault": true, 
    "State": "available", 
-   "VpcId": "vpc-5d2b8e34"
+   "DhcpOptionsId": "dopt-55f85e3c", 
+   "CidrBlock": "172.31.0.0/16", 
+   "IsDefault": true
   }
  ]
 }

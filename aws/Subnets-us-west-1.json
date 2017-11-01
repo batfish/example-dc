@@ -1,46 +1,46 @@
 {
  "Subnets": [
   {
-   "AssignIpv6AddressOnCreation": false, 
    "AvailabilityZone": "us-west-1c", 
    "AvailableIpAddressCount": 4089, 
-   "CidrBlock": "172.31.0.0/20", 
    "DefaultForAz": true, 
    "Ipv6CidrBlockAssociationSet": [], 
-   "MapPublicIpOnLaunch": true, 
+   "VpcId": "vpc-72850617", 
    "State": "available", 
+   "MapPublicIpOnLaunch": true, 
    "SubnetId": "subnet-5cf44105", 
-   "VpcId": "vpc-72850617"
+   "CidrBlock": "172.31.0.0/20", 
+   "AssignIpv6AddressOnCreation": false
   }, 
   {
-   "AssignIpv6AddressOnCreation": false, 
    "AvailabilityZone": "us-west-1a", 
-   "AvailableIpAddressCount": 251, 
-   "CidrBlock": "10.0.0.0/24", 
-   "DefaultForAz": false, 
-   "Ipv6CidrBlockAssociationSet": [], 
-   "MapPublicIpOnLaunch": false, 
-   "State": "available", 
-   "SubnetId": "subnet-1013e177", 
    "Tags": [
     {
-     "Key": "Name", 
-     "Value": "Public subnet"
+     "Value": "Public subnet", 
+     "Key": "Name"
     }
    ], 
-   "VpcId": "vpc-1dc49479"
+   "AvailableIpAddressCount": 251, 
+   "DefaultForAz": false, 
+   "Ipv6CidrBlockAssociationSet": [], 
+   "VpcId": "vpc-1dc49479", 
+   "State": "available", 
+   "MapPublicIpOnLaunch": false, 
+   "SubnetId": "subnet-1013e177", 
+   "CidrBlock": "10.0.0.0/24", 
+   "AssignIpv6AddressOnCreation": false
   }, 
   {
-   "AssignIpv6AddressOnCreation": false, 
    "AvailabilityZone": "us-west-1a", 
    "AvailableIpAddressCount": 4088, 
-   "CidrBlock": "172.31.16.0/20", 
    "DefaultForAz": true, 
    "Ipv6CidrBlockAssociationSet": [], 
-   "MapPublicIpOnLaunch": true, 
+   "VpcId": "vpc-72850617", 
    "State": "available", 
+   "MapPublicIpOnLaunch": true, 
    "SubnetId": "subnet-2b12664e", 
-   "VpcId": "vpc-72850617"
+   "CidrBlock": "172.31.16.0/20", 
+   "AssignIpv6AddressOnCreation": false
   }
  ]
 }

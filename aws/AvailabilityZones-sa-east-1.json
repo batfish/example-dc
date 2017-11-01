@@ -1,22 +1,22 @@
 {
  "AvailabilityZones": [
   {
-   "Messages": [], 
-   "RegionName": "sa-east-1", 
    "State": "available", 
-   "ZoneName": "sa-east-1a"
+   "ZoneName": "sa-east-1a", 
+   "Messages": [], 
+   "RegionName": "sa-east-1"
   }, 
   {
-   "Messages": [], 
-   "RegionName": "sa-east-1", 
    "State": "available", 
-   "ZoneName": "sa-east-1b"
+   "ZoneName": "sa-east-1b", 
+   "Messages": [], 
+   "RegionName": "sa-east-1"
   }, 
   {
-   "Messages": [], 
-   "RegionName": "sa-east-1", 
    "State": "available", 
-   "ZoneName": "sa-east-1c"
+   "ZoneName": "sa-east-1c", 
+   "Messages": [], 
+   "RegionName": "sa-east-1"
   }
  ]
 }

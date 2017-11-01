@@ -1,28 +1,28 @@
 {
  "Subnets": [
   {
-   "AssignIpv6AddressOnCreation": false, 
    "AvailabilityZone": "ca-central-1a", 
    "AvailableIpAddressCount": 4091, 
-   "CidrBlock": "172.31.16.0/20", 
    "DefaultForAz": true, 
    "Ipv6CidrBlockAssociationSet": [], 
-   "MapPublicIpOnLaunch": true, 
+   "VpcId": "vpc-bc67a3d5", 
    "State": "available", 
+   "MapPublicIpOnLaunch": true, 
    "SubnetId": "subnet-bad210d3", 
-   "VpcId": "vpc-bc67a3d5"
+   "CidrBlock": "172.31.16.0/20", 
+   "AssignIpv6AddressOnCreation": false
   }, 
   {
-   "AssignIpv6AddressOnCreation": false, 
    "AvailabilityZone": "ca-central-1b", 
    "AvailableIpAddressCount": 4091, 
-   "CidrBlock": "172.31.0.0/20", 
    "DefaultForAz": true, 
    "Ipv6CidrBlockAssociationSet": [], 
-   "MapPublicIpOnLaunch": true, 
+   "VpcId": "vpc-bc67a3d5", 
    "State": "available", 
+   "MapPublicIpOnLaunch": true, 
    "SubnetId": "subnet-534fae28", 
-   "VpcId": "vpc-bc67a3d5"
+   "CidrBlock": "172.31.0.0/20", 
+   "AssignIpv6AddressOnCreation": false
   }
  ]
 }

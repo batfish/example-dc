@@ -3,50 +3,50 @@
   {
    "Associations": [
     {
-     "NetworkAclAssociationId": "aclassoc-49a1072d", 
+     "SubnetId": "subnet-ae8be0d9", 
      "NetworkAclId": "acl-d06201b5", 
-     "SubnetId": "subnet-ae8be0d9"
+     "NetworkAclAssociationId": "aclassoc-49a1072d"
     }, 
     {
-     "NetworkAclAssociationId": "aclassoc-48a1072c", 
+     "SubnetId": "subnet-a8f674f1", 
      "NetworkAclId": "acl-d06201b5", 
-     "SubnetId": "subnet-a8f674f1"
+     "NetworkAclAssociationId": "aclassoc-48a1072c"
     }
    ], 
+   "NetworkAclId": "acl-d06201b5", 
+   "VpcId": "vpc-2c22b549", 
+   "Tags": [], 
    "Entries": [
     {
-     "CidrBlock": "0.0.0.0/0", 
+     "RuleNumber": 100, 
+     "Protocol": "-1", 
      "Egress": true, 
-     "Protocol": "-1", 
-     "RuleAction": "allow", 
-     "RuleNumber": 100
+     "CidrBlock": "0.0.0.0/0", 
+     "RuleAction": "allow"
     }, 
     {
-     "CidrBlock": "0.0.0.0/0", 
+     "RuleNumber": 32767, 
+     "Protocol": "-1", 
      "Egress": true, 
-     "Protocol": "-1", 
-     "RuleAction": "deny", 
-     "RuleNumber": 32767
+     "CidrBlock": "0.0.0.0/0", 
+     "RuleAction": "deny"
     }, 
     {
-     "CidrBlock": "0.0.0.0/0", 
-     "Egress": false, 
+     "RuleNumber": 100, 
      "Protocol": "-1", 
-     "RuleAction": "allow", 
-     "RuleNumber": 100
+     "Egress": false, 
+     "CidrBlock": "0.0.0.0/0", 
+     "RuleAction": "allow"
     }, 
     {
-     "CidrBlock": "0.0.0.0/0", 
-     "Egress": false, 
+     "RuleNumber": 32767, 
      "Protocol": "-1", 
-     "RuleAction": "deny", 
-     "RuleNumber": 32767
+     "Egress": false, 
+     "CidrBlock": "0.0.0.0/0", 
+     "RuleAction": "deny"
     }
    ], 
-   "IsDefault": true, 
-   "NetworkAclId": "acl-d06201b5", 
-   "Tags": [], 
-   "VpcId": "vpc-2c22b549"
+   "IsDefault": true
   }
  ]
 }
