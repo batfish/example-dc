@@ -1,21 +1,45 @@
 {
  "Tags": [
   {
-   "ResourceType": "security-group", 
-   "ResourceId": "sg-331ad04e", 
+   "ResourceType": "image", 
+   "ResourceId": "ami-07a25e7f", 
+   "Value": "Arista-CVP VMW", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "image", 
+   "ResourceId": "ami-4fbb5837", 
+   "Value": "Arista vEOS EFT1", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "image", 
+   "ResourceId": "ami-a0bc40d8", 
+   "Value": "Arista-CVP Original", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "vpn-connection", 
+   "ResourceId": "vpn-ba2e34a8", 
+   "Value": "GNS3-BGP-Test", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "internet-gateway", 
+   "ResourceId": "igw-9b93ddfc", 
    "Value": "Arista Demo", 
    "Key": "Name"
   }, 
   {
-   "ResourceType": "security-group", 
-   "ResourceId": "sg-94df21e9", 
-   "Value": "", 
+   "ResourceType": "vpn-gateway", 
+   "ResourceId": "vgw-81fd279f", 
+   "Value": "lhr-aws-01", 
    "Key": "Name"
   }, 
   {
-   "ResourceType": "security-group", 
-   "ResourceId": "sg-adcd87d0", 
-   "Value": "GNS3-BGP-Test-Default", 
+   "ResourceType": "network-acl", 
+   "ResourceId": "acl-7b78771d", 
+   "Value": "Arista Demo", 
    "Key": "Name"
   }, 
   {
@@ -64,30 +88,6 @@
    "ResourceType": "instance", 
    "ResourceId": "i-0b26ec095feb42260", 
    "Value": "core_01", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "vpn-gateway", 
-   "ResourceId": "vgw-81fd279f", 
-   "Value": "lhr-aws-01", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "vpc", 
-   "ResourceId": "vpc-815775e7", 
-   "Value": "GNS3-BGP-Test", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "vpc", 
-   "ResourceId": "vpc-925131f4", 
-   "Value": "Demo-Test2", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "vpc", 
-   "ResourceId": "vpc-b390fad5", 
-   "Value": "Arista Demo", 
    "Key": "Name"
   }, 
   {
@@ -142,6 +142,24 @@
    "ResourceType": "route-table", 
    "ResourceId": "rtb-9fa476e6", 
    "Value": "Arista Demo", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "security-group", 
+   "ResourceId": "sg-331ad04e", 
+   "Value": "Arista Demo", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "security-group", 
+   "ResourceId": "sg-94df21e9", 
+   "Value": "", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "security-group", 
+   "ResourceId": "sg-adcd87d0", 
+   "Value": "GNS3-BGP-Test-Default", 
    "Key": "Name"
   }, 
   {
@@ -229,18 +247,6 @@
    "Key": "Name"
   }, 
   {
-   "ResourceType": "internet-gateway", 
-   "ResourceId": "igw-9b93ddfc", 
-   "Value": "Arista Demo", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "vpn-connection", 
-   "ResourceId": "vpn-ba2e34a8", 
-   "Value": "GNS3-BGP-Test", 
-   "Key": "Name"
-  }, 
-  {
    "ResourceType": "network-interface", 
    "ResourceId": "eni-297b5c07", 
    "Value": "core_01-eth1", 
@@ -283,27 +289,21 @@
    "Key": "Name"
   }, 
   {
-   "ResourceType": "network-acl", 
-   "ResourceId": "acl-7b78771d", 
+   "ResourceType": "vpc", 
+   "ResourceId": "vpc-815775e7", 
+   "Value": "GNS3-BGP-Test", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "vpc", 
+   "ResourceId": "vpc-925131f4", 
+   "Value": "Demo-Test2", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "vpc", 
+   "ResourceId": "vpc-b390fad5", 
    "Value": "Arista Demo", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "image", 
-   "ResourceId": "ami-07a25e7f", 
-   "Value": "Arista-CVP VMW", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "image", 
-   "ResourceId": "ami-4fbb5837", 
-   "Value": "Arista vEOS EFT1", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "image", 
-   "ResourceId": "ami-a0bc40d8", 
-   "Value": "Arista-CVP Original", 
    "Key": "Name"
   }
  ]
