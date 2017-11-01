@@ -1,0 +1,24 @@
+{
+ "InternetGateways": [
+  {
+   "Tags": [], 
+   "Attachments": [
+    {
+     "State": "available", 
+     "VpcId": "vpc-1dc49479"
+    }
+   ], 
+   "InternetGatewayId": "igw-3eef2a5a"
+  }, 
+  {
+   "Tags": [], 
+   "Attachments": [
+    {
+     "State": "available", 
+     "VpcId": "vpc-72850617"
+    }
+   ], 
+   "InternetGatewayId": "igw-c6b16ea3"
+  }
+ ]
+}

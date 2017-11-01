@@ -1,0 +1,40 @@
+{
+ "Subnets": [
+  {
+   "AvailabilityZone": "ap-southeast-2c", 
+   "AvailableIpAddressCount": 4091, 
+   "DefaultForAz": true, 
+   "Ipv6CidrBlockAssociationSet": [], 
+   "VpcId": "vpc-9b35bafe", 
+   "State": "available", 
+   "MapPublicIpOnLaunch": true, 
+   "SubnetId": "subnet-dcf0ac9a", 
+   "CidrBlock": "172.31.32.0/20", 
+   "AssignIpv6AddressOnCreation": false
+  }, 
+  {
+   "AvailabilityZone": "ap-southeast-2a", 
+   "AvailableIpAddressCount": 4091, 
+   "DefaultForAz": true, 
+   "Ipv6CidrBlockAssociationSet": [], 
+   "VpcId": "vpc-9b35bafe", 
+   "State": "available", 
+   "MapPublicIpOnLaunch": true, 
+   "SubnetId": "subnet-4816853f", 
+   "CidrBlock": "172.31.16.0/20", 
+   "AssignIpv6AddressOnCreation": false
+  }, 
+  {
+   "AvailabilityZone": "ap-southeast-2b", 
+   "AvailableIpAddressCount": 4091, 
+   "DefaultForAz": true, 
+   "Ipv6CidrBlockAssociationSet": [], 
+   "VpcId": "vpc-9b35bafe", 
+   "State": "available", 
+   "MapPublicIpOnLaunch": true, 
+   "SubnetId": "subnet-a71c69c2", 
+   "CidrBlock": "172.31.0.0/20", 
+   "AssignIpv6AddressOnCreation": false
+  }
+ ]
+}

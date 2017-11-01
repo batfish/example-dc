@@ -1,0 +1,25 @@
+{
+ "DhcpOptions": [
+  {
+   "DhcpConfigurations": [
+    {
+     "Values": [
+      {
+       "Value": "us-west-1.compute.internal"
+      }
+     ], 
+     "Key": "domain-name"
+    }, 
+    {
+     "Values": [
+      {
+       "Value": "AmazonProvidedDNS"
+      }
+     ], 
+     "Key": "domain-name-servers"
+    }
+   ], 
+   "DhcpOptionsId": "dopt-ad6e93c8"
+  }
+ ]
+}

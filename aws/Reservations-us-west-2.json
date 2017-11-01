@@ -1,0 +1,547 @@
+{
+ "Reservations": [
+  {
+   "Instances": [
+    {
+     "Monitoring": {
+      "State": "disabled"
+     }, 
+     "PublicDnsName": "", 
+     "StateReason": {
+      "Message": "Client.UserInitiatedShutdown: User initiated shutdown", 
+      "Code": "Client.UserInitiatedShutdown"
+     }, 
+     "State": {
+      "Code": 80, 
+      "Name": "stopped"
+     }, 
+     "EbsOptimized": false, 
+     "LaunchTime": "2017-09-26 23:55:53+00:00", 
+     "PrivateIpAddress": "192.168.1.25", 
+     "ProductCodes": [], 
+     "VpcId": "vpc-b390fad5", 
+     "StateTransitionReason": "User initiated (2017-09-27 05:59:34 GMT)", 
+     "InstanceId": "i-075dc46a9bc347264", 
+     "ImageId": "ami-07a25e7f", 
+     "PrivateDnsName": "ip-192-168-1-25.us-west-2.compute.internal", 
+     "KeyName": "arista-demo-vpc", 
+     "SecurityGroups": [
+      {
+       "GroupName": "Arista Demo", 
+       "GroupId": "sg-331ad04e"
+      }
+     ], 
+     "ClientToken": "bLnuq1506470152405", 
+     "SubnetId": "subnet-1641fa70", 
+     "InstanceType": "t2.xlarge", 
+     "NetworkInterfaces": [
+      {
+       "Status": "in-use", 
+       "MacAddress": "02:eb:c0:c9:ba:72", 
+       "SourceDestCheck": true, 
+       "VpcId": "vpc-b390fad5", 
+       "Description": "Primary network interface", 
+       "NetworkInterfaceId": "eni-d2b094fc", 
+       "PrivateIpAddresses": [
+        {
+         "PrivateDnsName": "ip-192-168-1-25.us-west-2.compute.internal", 
+         "Primary": true, 
+         "PrivateIpAddress": "192.168.1.25"
+        }
+       ], 
+       "PrivateDnsName": "ip-192-168-1-25.us-west-2.compute.internal", 
+       "Attachment": {
+        "Status": "attached", 
+        "DeviceIndex": 0, 
+        "DeleteOnTermination": true, 
+        "AttachmentId": "eni-attach-f9e96a17", 
+        "AttachTime": "2017-09-26 23:55:53+00:00"
+       }, 
+       "Groups": [
+        {
+         "GroupName": "Arista Demo", 
+         "GroupId": "sg-331ad04e"
+        }
+       ], 
+       "Ipv6Addresses": [], 
+       "OwnerId": "118292266645", 
+       "SubnetId": "subnet-1641fa70", 
+       "PrivateIpAddress": "192.168.1.25"
+      }
+     ], 
+     "SourceDestCheck": true, 
+     "Placement": {
+      "Tenancy": "default", 
+      "GroupName": "", 
+      "AvailabilityZone": "us-west-2a"
+     }, 
+     "Hypervisor": "xen", 
+     "BlockDeviceMappings": [
+      {
+       "DeviceName": "/dev/sda1", 
+       "Ebs": {
+        "Status": "attached", 
+        "DeleteOnTermination": false, 
+        "VolumeId": "vol-0ebf36fbbffb5b9ea", 
+        "AttachTime": "2017-09-26 23:55:54+00:00"
+       }
+      }, 
+      {
+       "DeviceName": "/dev/sdf", 
+       "Ebs": {
+        "Status": "attached", 
+        "DeleteOnTermination": false, 
+        "VolumeId": "vol-0991eeea5ff3d30cd", 
+        "AttachTime": "2017-09-26 23:55:54+00:00"
+       }
+      }
+     ], 
+     "Architecture": "x86_64", 
+     "RootDeviceType": "ebs", 
+     "RootDeviceName": "/dev/sda1", 
+     "VirtualizationType": "hvm", 
+     "Tags": [
+      {
+       "Value": "Arista CVP", 
+       "Key": "Application"
+      }, 
+      {
+       "Value": "CVP Server Test", 
+       "Key": "Name"
+      }
+     ], 
+     "AmiLaunchIndex": 0
+    }
+   ], 
+   "ReservationId": "r-0cd5ffefa8ca8eabc", 
+   "Groups": [], 
+   "OwnerId": "118292266645"
+  }, 
+  {
+   "Instances": [
+    {
+     "Monitoring": {
+      "State": "disabled"
+     }, 
+     "PublicDnsName": "", 
+     "StateReason": {
+      "Message": "Client.UserInitiatedShutdown: User initiated shutdown", 
+      "Code": "Client.UserInitiatedShutdown"
+     }, 
+     "State": {
+      "Code": 80, 
+      "Name": "stopped"
+     }, 
+     "EbsOptimized": false, 
+     "LaunchTime": "2017-09-27 01:25:56+00:00", 
+     "PrivateIpAddress": "192.168.1.138", 
+     "ProductCodes": [], 
+     "VpcId": "vpc-b390fad5", 
+     "StateTransitionReason": "User initiated (2017-09-27 20:47:52 GMT)", 
+     "InstanceId": "i-0837c877110427f2b", 
+     "EnaSupport": true, 
+     "ImageId": "ami-4fbb5837", 
+     "PrivateDnsName": "ip-192-168-1-138.us-west-2.compute.internal", 
+     "KeyName": "arista-demo-vpc", 
+     "SecurityGroups": [
+      {
+       "GroupName": "Arista Demo", 
+       "GroupId": "sg-331ad04e"
+      }
+     ], 
+     "ClientToken": "ategB1506463164823", 
+     "SubnetId": "subnet-1641fa70", 
+     "InstanceType": "t2.medium", 
+     "NetworkInterfaces": [
+      {
+       "Status": "in-use", 
+       "MacAddress": "02:3d:a4:f4:04:2a", 
+       "SourceDestCheck": true, 
+       "VpcId": "vpc-b390fad5", 
+       "Description": "Primary network interface", 
+       "NetworkInterfaceId": "eni-6b705445", 
+       "PrivateIpAddresses": [
+        {
+         "PrivateDnsName": "ip-192-168-1-138.us-west-2.compute.internal", 
+         "Primary": true, 
+         "PrivateIpAddress": "192.168.1.138"
+        }
+       ], 
+       "PrivateDnsName": "ip-192-168-1-138.us-west-2.compute.internal", 
+       "Attachment": {
+        "Status": "attached", 
+        "DeviceIndex": 0, 
+        "DeleteOnTermination": true, 
+        "AttachmentId": "eni-attach-7189099f", 
+        "AttachTime": "2017-09-26 21:59:25+00:00"
+       }, 
+       "Groups": [
+        {
+         "GroupName": "Arista Demo", 
+         "GroupId": "sg-331ad04e"
+        }
+       ], 
+       "Ipv6Addresses": [], 
+       "OwnerId": "118292266645", 
+       "SubnetId": "subnet-1641fa70", 
+       "PrivateIpAddress": "192.168.1.138"
+      }, 
+      {
+       "Status": "in-use", 
+       "MacAddress": "02:07:89:5b:7f:5a", 
+       "SourceDestCheck": true, 
+       "VpcId": "vpc-b390fad5", 
+       "Description": "border_02-eth1", 
+       "NetworkInterfaceId": "eni-a50c2b8b", 
+       "PrivateIpAddresses": [
+        {
+         "PrivateDnsName": "ip-192-168-2-57.us-west-2.compute.internal", 
+         "Primary": true, 
+         "PrivateIpAddress": "192.168.2.57"
+        }
+       ], 
+       "PrivateDnsName": "ip-192-168-2-57.us-west-2.compute.internal", 
+       "Attachment": {
+        "Status": "attached", 
+        "DeviceIndex": 1, 
+        "DeleteOnTermination": false, 
+        "AttachmentId": "eni-attach-7437b49a", 
+        "AttachTime": "2017-09-27 01:39:32+00:00"
+       }, 
+       "Groups": [
+        {
+         "GroupName": "Arista Demo", 
+         "GroupId": "sg-331ad04e"
+        }
+       ], 
+       "Ipv6Addresses": [], 
+       "OwnerId": "118292266645", 
+       "SubnetId": "subnet-f73a8191", 
+       "PrivateIpAddress": "192.168.2.57"
+      }
+     ], 
+     "SourceDestCheck": true, 
+     "Placement": {
+      "Tenancy": "default", 
+      "GroupName": "", 
+      "AvailabilityZone": "us-west-2a"
+     }, 
+     "Hypervisor": "xen", 
+     "BlockDeviceMappings": [
+      {
+       "DeviceName": "/dev/xvda", 
+       "Ebs": {
+        "Status": "attached", 
+        "DeleteOnTermination": true, 
+        "VolumeId": "vol-0221ccbd9ade821d0", 
+        "AttachTime": "2017-09-26 21:59:26+00:00"
+       }
+      }
+     ], 
+     "Architecture": "x86_64", 
+     "RootDeviceType": "ebs", 
+     "RootDeviceName": "/dev/xvda", 
+     "VirtualizationType": "hvm", 
+     "Tags": [
+      {
+       "Value": "border_02", 
+       "Key": "Name"
+      }, 
+      {
+       "Value": "Arista vEOS", 
+       "Key": "Application"
+      }
+     ], 
+     "AmiLaunchIndex": 0
+    }
+   ], 
+   "ReservationId": "r-02e47743dcb88cf90", 
+   "Groups": [], 
+   "OwnerId": "118292266645"
+  }, 
+  {
+   "Instances": [
+    {
+     "Monitoring": {
+      "State": "disabled"
+     }, 
+     "PublicDnsName": "", 
+     "StateReason": {
+      "Message": "Client.UserInitiatedShutdown: User initiated shutdown", 
+      "Code": "Client.UserInitiatedShutdown"
+     }, 
+     "State": {
+      "Code": 80, 
+      "Name": "stopped"
+     }, 
+     "EbsOptimized": false, 
+     "LaunchTime": "2017-09-27 05:09:11+00:00", 
+     "PrivateIpAddress": "192.168.1.186", 
+     "ProductCodes": [], 
+     "VpcId": "vpc-b390fad5", 
+     "StateTransitionReason": "User initiated (2017-09-27 20:47:52 GMT)", 
+     "InstanceId": "i-0b26ec095feb42260", 
+     "EnaSupport": true, 
+     "ImageId": "ami-4fbb5837", 
+     "PrivateDnsName": "ip-192-168-1-186.us-west-2.compute.internal", 
+     "KeyName": "arista-demo-vpc", 
+     "SecurityGroups": [
+      {
+       "GroupName": "Arista Demo", 
+       "GroupId": "sg-331ad04e"
+      }
+     ], 
+     "ClientToken": "yGxsq1506463254808", 
+     "SubnetId": "subnet-1641fa70", 
+     "InstanceType": "t2.medium", 
+     "NetworkInterfaces": [
+      {
+       "Status": "in-use", 
+       "MacAddress": "02:a1:70:4a:5d:8a", 
+       "SourceDestCheck": true, 
+       "VpcId": "vpc-b390fad5", 
+       "Description": "Primary network interface", 
+       "NetworkInterfaceId": "eni-707e5a5e", 
+       "PrivateIpAddresses": [
+        {
+         "PrivateDnsName": "ip-192-168-1-186.us-west-2.compute.internal", 
+         "Primary": true, 
+         "PrivateIpAddress": "192.168.1.186"
+        }
+       ], 
+       "PrivateDnsName": "ip-192-168-1-186.us-west-2.compute.internal", 
+       "Attachment": {
+        "Status": "attached", 
+        "DeviceIndex": 0, 
+        "DeleteOnTermination": true, 
+        "AttachmentId": "eni-attach-209111ce", 
+        "AttachTime": "2017-09-26 22:00:55+00:00"
+       }, 
+       "Groups": [
+        {
+         "GroupName": "Arista Demo", 
+         "GroupId": "sg-331ad04e"
+        }
+       ], 
+       "Ipv6Addresses": [], 
+       "OwnerId": "118292266645", 
+       "SubnetId": "subnet-1641fa70", 
+       "PrivateIpAddress": "192.168.1.186"
+      }, 
+      {
+       "Status": "in-use", 
+       "MacAddress": "02:12:55:7d:bf:32", 
+       "SourceDestCheck": true, 
+       "VpcId": "vpc-b390fad5", 
+       "Description": "core_01-eth1", 
+       "NetworkInterfaceId": "eni-297b5c07", 
+       "PrivateIpAddresses": [
+        {
+         "PrivateDnsName": "ip-192-168-2-23.us-west-2.compute.internal", 
+         "Primary": true, 
+         "PrivateIpAddress": "192.168.2.23"
+        }
+       ], 
+       "PrivateDnsName": "ip-192-168-2-23.us-west-2.compute.internal", 
+       "Attachment": {
+        "Status": "attached", 
+        "DeviceIndex": 1, 
+        "DeleteOnTermination": false, 
+        "AttachmentId": "eni-attach-4b3cbfa5", 
+        "AttachTime": "2017-09-27 01:47:19+00:00"
+       }, 
+       "Groups": [
+        {
+         "GroupName": "Arista Demo", 
+         "GroupId": "sg-331ad04e"
+        }
+       ], 
+       "Ipv6Addresses": [], 
+       "OwnerId": "118292266645", 
+       "SubnetId": "subnet-073b8061", 
+       "PrivateIpAddress": "192.168.2.23"
+      }
+     ], 
+     "SourceDestCheck": true, 
+     "Placement": {
+      "Tenancy": "default", 
+      "GroupName": "", 
+      "AvailabilityZone": "us-west-2a"
+     }, 
+     "Hypervisor": "xen", 
+     "BlockDeviceMappings": [
+      {
+       "DeviceName": "/dev/xvda", 
+       "Ebs": {
+        "Status": "attached", 
+        "DeleteOnTermination": true, 
+        "VolumeId": "vol-09e9ddfc2b940072a", 
+        "AttachTime": "2017-09-26 22:00:56+00:00"
+       }
+      }
+     ], 
+     "Architecture": "x86_64", 
+     "RootDeviceType": "ebs", 
+     "RootDeviceName": "/dev/xvda", 
+     "VirtualizationType": "hvm", 
+     "Tags": [
+      {
+       "Value": "core_01", 
+       "Key": "Name"
+      }, 
+      {
+       "Value": "Arista vEOS", 
+       "Key": "Application"
+      }
+     ], 
+     "AmiLaunchIndex": 0
+    }
+   ], 
+   "ReservationId": "r-087213546dd8bf6b9", 
+   "Groups": [], 
+   "OwnerId": "118292266645"
+  }, 
+  {
+   "Instances": [
+    {
+     "Monitoring": {
+      "State": "disabled"
+     }, 
+     "PublicDnsName": "", 
+     "StateReason": {
+      "Message": "Client.UserInitiatedShutdown: User initiated shutdown", 
+      "Code": "Client.UserInitiatedShutdown"
+     }, 
+     "State": {
+      "Code": 80, 
+      "Name": "stopped"
+     }, 
+     "EbsOptimized": false, 
+     "LaunchTime": "2017-09-27 00:46:00+00:00", 
+     "PrivateIpAddress": "192.168.1.243", 
+     "ProductCodes": [], 
+     "VpcId": "vpc-b390fad5", 
+     "StateTransitionReason": "User initiated (2017-09-27 20:47:52 GMT)", 
+     "InstanceId": "i-0383fda87c012141d", 
+     "EnaSupport": true, 
+     "ImageId": "ami-4fbb5837", 
+     "PrivateDnsName": "ip-192-168-1-243.us-west-2.compute.internal", 
+     "KeyName": "arista-demo-vpc", 
+     "SecurityGroups": [
+      {
+       "GroupName": "Arista Demo", 
+       "GroupId": "sg-331ad04e"
+      }
+     ], 
+     "ClientToken": "VCuht1506463013678", 
+     "SubnetId": "subnet-1641fa70", 
+     "InstanceType": "t2.medium", 
+     "NetworkInterfaces": [
+      {
+       "Status": "in-use", 
+       "MacAddress": "02:5e:29:dd:2e:86", 
+       "SourceDestCheck": true, 
+       "VpcId": "vpc-b390fad5", 
+       "Description": "Primary network interface", 
+       "NetworkInterfaceId": "eni-8c7753a2", 
+       "PrivateIpAddresses": [
+        {
+         "PrivateDnsName": "ip-192-168-1-243.us-west-2.compute.internal", 
+         "Primary": true, 
+         "PrivateIpAddress": "192.168.1.243"
+        }
+       ], 
+       "PrivateDnsName": "ip-192-168-1-243.us-west-2.compute.internal", 
+       "Attachment": {
+        "Status": "attached", 
+        "DeviceIndex": 0, 
+        "DeleteOnTermination": true, 
+        "AttachmentId": "eni-attach-4e8707a0", 
+        "AttachTime": "2017-09-26 21:56:54+00:00"
+       }, 
+       "Groups": [
+        {
+         "GroupName": "Arista Demo", 
+         "GroupId": "sg-331ad04e"
+        }
+       ], 
+       "Ipv6Addresses": [], 
+       "OwnerId": "118292266645", 
+       "SubnetId": "subnet-1641fa70", 
+       "PrivateIpAddress": "192.168.1.243"
+      }, 
+      {
+       "Status": "in-use", 
+       "MacAddress": "02:7a:fa:4d:d1:20", 
+       "SourceDestCheck": true, 
+       "VpcId": "vpc-b390fad5", 
+       "Description": "border_01-eth1", 
+       "NetworkInterfaceId": "eni-4b466165", 
+       "PrivateIpAddresses": [
+        {
+         "PrivateDnsName": "ip-192-168-2-22.us-west-2.compute.internal", 
+         "Primary": true, 
+         "PrivateIpAddress": "192.168.2.22"
+        }
+       ], 
+       "PrivateDnsName": "ip-192-168-2-22.us-west-2.compute.internal", 
+       "Attachment": {
+        "Status": "attached", 
+        "DeviceIndex": 1, 
+        "DeleteOnTermination": false, 
+        "AttachmentId": "eni-attach-11ca48ff", 
+        "AttachTime": "2017-09-27 01:52:44+00:00"
+       }, 
+       "Groups": [
+        {
+         "GroupName": "Arista Demo", 
+         "GroupId": "sg-331ad04e"
+        }
+       ], 
+       "Ipv6Addresses": [], 
+       "OwnerId": "118292266645", 
+       "SubnetId": "subnet-073b8061", 
+       "PrivateIpAddress": "192.168.2.22"
+      }
+     ], 
+     "SourceDestCheck": true, 
+     "Placement": {
+      "Tenancy": "default", 
+      "GroupName": "", 
+      "AvailabilityZone": "us-west-2a"
+     }, 
+     "Hypervisor": "xen", 
+     "BlockDeviceMappings": [
+      {
+       "DeviceName": "/dev/xvda", 
+       "Ebs": {
+        "Status": "attached", 
+        "DeleteOnTermination": true, 
+        "VolumeId": "vol-07084b7939eeb94ed", 
+        "AttachTime": "2017-09-26 21:56:55+00:00"
+       }
+      }
+     ], 
+     "Architecture": "x86_64", 
+     "RootDeviceType": "ebs", 
+     "RootDeviceName": "/dev/xvda", 
+     "VirtualizationType": "hvm", 
+     "Tags": [
+      {
+       "Value": "Arista vEOS", 
+       "Key": "Application"
+      }, 
+      {
+       "Value": "border_01", 
+       "Key": "Name"
+      }
+     ], 
+     "AmiLaunchIndex": 0
+    }
+   ], 
+   "ReservationId": "r-0c112f1cf19996e86", 
+   "Groups": [], 
+   "OwnerId": "118292266645"
+  }
+ ]
+}

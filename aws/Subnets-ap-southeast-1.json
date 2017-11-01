@@ -1,0 +1,28 @@
+{
+ "Subnets": [
+  {
+   "AvailabilityZone": "ap-southeast-1a", 
+   "AvailableIpAddressCount": 4091, 
+   "DefaultForAz": true, 
+   "Ipv6CidrBlockAssociationSet": [], 
+   "VpcId": "vpc-b50c85d0", 
+   "State": "available", 
+   "MapPublicIpOnLaunch": true, 
+   "SubnetId": "subnet-1cf48e79", 
+   "CidrBlock": "172.31.0.0/20", 
+   "AssignIpv6AddressOnCreation": false
+  }, 
+  {
+   "AvailabilityZone": "ap-southeast-1b", 
+   "AvailableIpAddressCount": 4091, 
+   "DefaultForAz": true, 
+   "Ipv6CidrBlockAssociationSet": [], 
+   "VpcId": "vpc-b50c85d0", 
+   "State": "available", 
+   "MapPublicIpOnLaunch": true, 
+   "SubnetId": "subnet-4961173e", 
+   "CidrBlock": "172.31.16.0/20", 
+   "AssignIpv6AddressOnCreation": false
+  }
+ ]
+}

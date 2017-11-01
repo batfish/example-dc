@@ -1,0 +1,22 @@
+{
+ "Tags": [
+  {
+   "ResourceType": "subnet", 
+   "ResourceId": "subnet-1013e177", 
+   "Value": "Public subnet", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "vpc", 
+   "ResourceId": "vpc-1dc49479", 
+   "Value": "ratultest", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "security-group", 
+   "ResourceId": "sg-fefede99", 
+   "Value": "intentionet-test", 
+   "Key": "Name"
+  }
+ ]
+}

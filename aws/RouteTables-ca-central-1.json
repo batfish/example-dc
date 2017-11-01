@@ -1,0 +1,31 @@
+{
+ "RouteTables": [
+  {
+   "Associations": [
+    {
+     "RouteTableAssociationId": "rtbassoc-1e4e8377", 
+     "Main": true, 
+     "RouteTableId": "rtb-71fb3d18"
+    }
+   ], 
+   "RouteTableId": "rtb-71fb3d18", 
+   "VpcId": "vpc-bc67a3d5", 
+   "PropagatingVgws": [], 
+   "Tags": [], 
+   "Routes": [
+    {
+     "GatewayId": "local", 
+     "DestinationCidrBlock": "172.31.0.0/16", 
+     "State": "active", 
+     "Origin": "CreateRouteTable"
+    }, 
+    {
+     "GatewayId": "igw-9e30cff7", 
+     "DestinationCidrBlock": "0.0.0.0/0", 
+     "State": "active", 
+     "Origin": "CreateRoute"
+    }
+   ]
+  }
+ ]
+}

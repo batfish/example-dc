@@ -1,0 +1,166 @@
+{
+ "Subnets": [
+  {
+   "AvailabilityZone": "us-west-2a", 
+   "Tags": [
+    {
+     "Value": "Private subnet", 
+     "Key": "Name"
+    }
+   ], 
+   "AvailableIpAddressCount": 251, 
+   "DefaultForAz": false, 
+   "Ipv6CidrBlockAssociationSet": [], 
+   "VpcId": "vpc-925131f4", 
+   "State": "available", 
+   "MapPublicIpOnLaunch": false, 
+   "SubnetId": "subnet-8d0cbdeb", 
+   "CidrBlock": "10.0.1.0/24", 
+   "AssignIpv6AddressOnCreation": false
+  }, 
+  {
+   "AvailabilityZone": "us-west-2a", 
+   "Tags": [
+    {
+     "Value": "border_01-core_01", 
+     "Key": "Name"
+    }
+   ], 
+   "AvailableIpAddressCount": 9, 
+   "DefaultForAz": false, 
+   "Ipv6CidrBlockAssociationSet": [], 
+   "VpcId": "vpc-b390fad5", 
+   "State": "available", 
+   "MapPublicIpOnLaunch": false, 
+   "SubnetId": "subnet-073b8061", 
+   "CidrBlock": "192.168.2.16/28", 
+   "AssignIpv6AddressOnCreation": false
+  }, 
+  {
+   "AvailabilityZone": "us-west-2c", 
+   "AvailableIpAddressCount": 4091, 
+   "DefaultForAz": true, 
+   "Ipv6CidrBlockAssociationSet": [], 
+   "VpcId": "vpc-f8fad69d", 
+   "State": "available", 
+   "MapPublicIpOnLaunch": true, 
+   "SubnetId": "subnet-1f315846", 
+   "CidrBlock": "172.31.0.0/20", 
+   "AssignIpv6AddressOnCreation": false
+  }, 
+  {
+   "AvailabilityZone": "us-west-2a", 
+   "Tags": [
+    {
+     "Value": "border_01-core_02", 
+     "Key": "Name"
+    }
+   ], 
+   "AvailableIpAddressCount": 11, 
+   "DefaultForAz": false, 
+   "Ipv6CidrBlockAssociationSet": [], 
+   "VpcId": "vpc-b390fad5", 
+   "State": "available", 
+   "MapPublicIpOnLaunch": false, 
+   "SubnetId": "subnet-7044ff16", 
+   "CidrBlock": "192.168.2.0/28", 
+   "AssignIpv6AddressOnCreation": false
+  }, 
+  {
+   "AvailabilityZone": "us-west-2b", 
+   "AvailableIpAddressCount": 4091, 
+   "DefaultForAz": true, 
+   "Ipv6CidrBlockAssociationSet": [], 
+   "VpcId": "vpc-f8fad69d", 
+   "State": "available", 
+   "MapPublicIpOnLaunch": true, 
+   "SubnetId": "subnet-9c8adceb", 
+   "CidrBlock": "172.31.32.0/20", 
+   "AssignIpv6AddressOnCreation": false
+  }, 
+  {
+   "AvailabilityZone": "us-west-2a", 
+   "Tags": [
+    {
+     "Value": "Management", 
+     "Key": "Name"
+    }
+   ], 
+   "AvailableIpAddressCount": 247, 
+   "DefaultForAz": false, 
+   "Ipv6CidrBlockAssociationSet": [], 
+   "VpcId": "vpc-b390fad5", 
+   "State": "available", 
+   "MapPublicIpOnLaunch": false, 
+   "SubnetId": "subnet-1641fa70", 
+   "CidrBlock": "192.168.1.0/24", 
+   "AssignIpv6AddressOnCreation": false
+  }, 
+  {
+   "AvailabilityZone": "us-west-2a", 
+   "Tags": [
+    {
+     "Value": "border_02-core_01", 
+     "Key": "Name"
+    }
+   ], 
+   "AvailableIpAddressCount": 10, 
+   "DefaultForAz": false, 
+   "Ipv6CidrBlockAssociationSet": [], 
+   "VpcId": "vpc-b390fad5", 
+   "State": "available", 
+   "MapPublicIpOnLaunch": false, 
+   "SubnetId": "subnet-f73a8191", 
+   "CidrBlock": "192.168.2.48/28", 
+   "AssignIpv6AddressOnCreation": false
+  }, 
+  {
+   "AvailabilityZone": "us-west-2a", 
+   "Tags": [
+    {
+     "Value": "Public subnet", 
+     "Key": "Name"
+    }
+   ], 
+   "AvailableIpAddressCount": 249, 
+   "DefaultForAz": false, 
+   "Ipv6CidrBlockAssociationSet": [], 
+   "VpcId": "vpc-925131f4", 
+   "State": "available", 
+   "MapPublicIpOnLaunch": false, 
+   "SubnetId": "subnet-62f14104", 
+   "CidrBlock": "10.0.0.0/24", 
+   "AssignIpv6AddressOnCreation": false
+  }, 
+  {
+   "AvailabilityZone": "us-west-2a", 
+   "AvailableIpAddressCount": 4091, 
+   "DefaultForAz": true, 
+   "Ipv6CidrBlockAssociationSet": [], 
+   "VpcId": "vpc-f8fad69d", 
+   "State": "available", 
+   "MapPublicIpOnLaunch": true, 
+   "SubnetId": "subnet-d9cafabc", 
+   "CidrBlock": "172.31.16.0/20", 
+   "AssignIpv6AddressOnCreation": false
+  }, 
+  {
+   "AvailabilityZone": "us-west-2a", 
+   "Tags": [
+    {
+     "Value": "border_02-core_02", 
+     "Key": "Name"
+    }
+   ], 
+   "AvailableIpAddressCount": 11, 
+   "DefaultForAz": false, 
+   "Ipv6CidrBlockAssociationSet": [], 
+   "VpcId": "vpc-b390fad5", 
+   "State": "available", 
+   "MapPublicIpOnLaunch": false, 
+   "SubnetId": "subnet-30398256", 
+   "CidrBlock": "192.168.2.32/28", 
+   "AssignIpv6AddressOnCreation": false
+  }
+ ]
+}

@@ -1,0 +1,6 @@
+{
+ "ServiceNames": [
+  "com.amazonaws.ap-southeast-1.dynamodb", 
+  "com.amazonaws.ap-southeast-1.s3"
+ ]
+}

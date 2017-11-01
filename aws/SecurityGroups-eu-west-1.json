@@ -1,0 +1,38 @@
+{
+ "SecurityGroups": [
+  {
+   "IpPermissionsEgress": [
+    {
+     "IpProtocol": "-1", 
+     "PrefixListIds": [], 
+     "IpRanges": [
+      {
+       "CidrIp": "0.0.0.0/0"
+      }
+     ], 
+     "UserIdGroupPairs": [], 
+     "Ipv6Ranges": []
+    }
+   ], 
+   "Description": "default VPC security group", 
+   "IpPermissions": [
+    {
+     "IpProtocol": "-1", 
+     "PrefixListIds": [], 
+     "IpRanges": [], 
+     "UserIdGroupPairs": [
+      {
+       "UserId": "118292266645", 
+       "GroupId": "sg-ef60f58b"
+      }
+     ], 
+     "Ipv6Ranges": []
+    }
+   ], 
+   "GroupName": "default", 
+   "VpcId": "vpc-6783c902", 
+   "OwnerId": "118292266645", 
+   "GroupId": "sg-ef60f58b"
+  }
+ ]
+}

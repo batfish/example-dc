@@ -1,0 +1,57 @@
+{
+ "NetworkAcls": [
+  {
+   "Associations": [
+    {
+     "SubnetId": "subnet-49502c10", 
+     "NetworkAclId": "acl-5098b435", 
+     "NetworkAclAssociationId": "aclassoc-088e496f"
+    }, 
+    {
+     "SubnetId": "subnet-374d7152", 
+     "NetworkAclId": "acl-5098b435", 
+     "NetworkAclAssociationId": "aclassoc-0a8e496d"
+    }, 
+    {
+     "SubnetId": "subnet-0690b571", 
+     "NetworkAclId": "acl-5098b435", 
+     "NetworkAclAssociationId": "aclassoc-098e496e"
+    }
+   ], 
+   "NetworkAclId": "acl-5098b435", 
+   "VpcId": "vpc-6783c902", 
+   "Tags": [], 
+   "Entries": [
+    {
+     "RuleNumber": 100, 
+     "Protocol": "-1", 
+     "Egress": true, 
+     "CidrBlock": "0.0.0.0/0", 
+     "RuleAction": "allow"
+    }, 
+    {
+     "RuleNumber": 32767, 
+     "Protocol": "-1", 
+     "Egress": true, 
+     "CidrBlock": "0.0.0.0/0", 
+     "RuleAction": "deny"
+    }, 
+    {
+     "RuleNumber": 100, 
+     "Protocol": "-1", 
+     "Egress": false, 
+     "CidrBlock": "0.0.0.0/0", 
+     "RuleAction": "allow"
+    }, 
+    {
+     "RuleNumber": 32767, 
+     "Protocol": "-1", 
+     "Egress": false, 
+     "CidrBlock": "0.0.0.0/0", 
+     "RuleAction": "deny"
+    }
+   ], 
+   "IsDefault": true
+  }
+ ]
+}
