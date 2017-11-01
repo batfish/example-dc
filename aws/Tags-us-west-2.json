@@ -1,42 +1,6 @@
 {
  "Tags": [
   {
-   "ResourceType": "network-interface", 
-   "ResourceId": "eni-297b5c07", 
-   "Value": "core_01-eth1", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "network-interface", 
-   "ResourceId": "eni-4b466165", 
-   "Value": "border_01-eth1", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "network-interface", 
-   "ResourceId": "eni-6b705445", 
-   "Value": "border_02-eth0", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "network-interface", 
-   "ResourceId": "eni-707e5a5e", 
-   "Value": "core_01-eth0", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "network-interface", 
-   "ResourceId": "eni-8c7753a2", 
-   "Value": "border_01-eth0", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "network-interface", 
-   "ResourceId": "eni-a50c2b8b", 
-   "Value": "border_02-eth1", 
-   "Key": "Name"
-  }, 
-  {
    "ResourceType": "security-group", 
    "ResourceId": "sg-331ad04e", 
    "Value": "Arista Demo", 
@@ -55,57 +19,15 @@
    "Key": "Name"
   }, 
   {
-   "ResourceType": "instance", 
-   "ResourceId": "i-0383fda87c012141d", 
-   "Value": "Arista vEOS", 
-   "Key": "Application"
-  }, 
-  {
-   "ResourceType": "instance", 
-   "ResourceId": "i-0383fda87c012141d", 
-   "Value": "border_01", 
+   "ResourceType": "vpn-connection", 
+   "ResourceId": "vpn-ba2e34a8", 
+   "Value": "GNS3-BGP-Test", 
    "Key": "Name"
   }, 
   {
-   "ResourceType": "instance", 
-   "ResourceId": "i-075dc46a9bc347264", 
-   "Value": "Arista CVP", 
-   "Key": "Application"
-  }, 
-  {
-   "ResourceType": "instance", 
-   "ResourceId": "i-075dc46a9bc347264", 
-   "Value": "CVP Server Test", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "instance", 
-   "ResourceId": "i-0837c877110427f2b", 
-   "Value": "Arista vEOS", 
-   "Key": "Application"
-  }, 
-  {
-   "ResourceType": "instance", 
-   "ResourceId": "i-0837c877110427f2b", 
-   "Value": "border_02", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "instance", 
-   "ResourceId": "i-0b26ec095feb42260", 
-   "Value": "Arista vEOS", 
-   "Key": "Application"
-  }, 
-  {
-   "ResourceType": "instance", 
-   "ResourceId": "i-0b26ec095feb42260", 
-   "Value": "core_01", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "vpn-gateway", 
-   "ResourceId": "vgw-81fd279f", 
-   "Value": "lhr-aws-01", 
+   "ResourceType": "internet-gateway", 
+   "ResourceId": "igw-9b93ddfc", 
+   "Value": "Arista Demo", 
    "Key": "Name"
   }, 
   {
@@ -193,6 +115,120 @@
    "Key": "Name"
   }, 
   {
+   "ResourceType": "network-interface", 
+   "ResourceId": "eni-297b5c07", 
+   "Value": "core_01-eth1", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "network-interface", 
+   "ResourceId": "eni-4b466165", 
+   "Value": "border_01-eth1", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "network-interface", 
+   "ResourceId": "eni-6b705445", 
+   "Value": "border_02-eth0", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "network-interface", 
+   "ResourceId": "eni-707e5a5e", 
+   "Value": "core_01-eth0", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "network-interface", 
+   "ResourceId": "eni-8c7753a2", 
+   "Value": "border_01-eth0", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "network-interface", 
+   "ResourceId": "eni-a50c2b8b", 
+   "Value": "border_02-eth1", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "instance", 
+   "ResourceId": "i-0383fda87c012141d", 
+   "Value": "Arista vEOS", 
+   "Key": "Application"
+  }, 
+  {
+   "ResourceType": "instance", 
+   "ResourceId": "i-0383fda87c012141d", 
+   "Value": "border_01", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "instance", 
+   "ResourceId": "i-075dc46a9bc347264", 
+   "Value": "Arista CVP", 
+   "Key": "Application"
+  }, 
+  {
+   "ResourceType": "instance", 
+   "ResourceId": "i-075dc46a9bc347264", 
+   "Value": "CVP Server Test", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "instance", 
+   "ResourceId": "i-0837c877110427f2b", 
+   "Value": "Arista vEOS", 
+   "Key": "Application"
+  }, 
+  {
+   "ResourceType": "instance", 
+   "ResourceId": "i-0837c877110427f2b", 
+   "Value": "border_02", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "instance", 
+   "ResourceId": "i-0b26ec095feb42260", 
+   "Value": "Arista vEOS", 
+   "Key": "Application"
+  }, 
+  {
+   "ResourceType": "instance", 
+   "ResourceId": "i-0b26ec095feb42260", 
+   "Value": "core_01", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "vpn-gateway", 
+   "ResourceId": "vgw-81fd279f", 
+   "Value": "lhr-aws-01", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "customer-gateway", 
+   "ResourceId": "cgw-fb76ace5", 
+   "Value": "lhr-border-02", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "image", 
+   "ResourceId": "ami-07a25e7f", 
+   "Value": "Arista-CVP VMW", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "image", 
+   "ResourceId": "ami-4fbb5837", 
+   "Value": "Arista vEOS EFT1", 
+   "Key": "Name"
+  }, 
+  {
+   "ResourceType": "image", 
+   "ResourceId": "ami-a0bc40d8", 
+   "Value": "Arista-CVP Original", 
+   "Key": "Name"
+  }, 
+  {
    "ResourceType": "subnet", 
    "ResourceId": "subnet-073b8061", 
    "Value": "border_01-core_01", 
@@ -247,6 +283,12 @@
    "Key": "Name"
   }, 
   {
+   "ResourceType": "network-acl", 
+   "ResourceId": "acl-7b78771d", 
+   "Value": "Arista Demo", 
+   "Key": "Name"
+  }, 
+  {
    "ResourceType": "vpc", 
    "ResourceId": "vpc-815775e7", 
    "Value": "GNS3-BGP-Test", 
@@ -261,48 +303,6 @@
   {
    "ResourceType": "vpc", 
    "ResourceId": "vpc-b390fad5", 
-   "Value": "Arista Demo", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "vpn-connection", 
-   "ResourceId": "vpn-ba2e34a8", 
-   "Value": "GNS3-BGP-Test", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "network-acl", 
-   "ResourceId": "acl-7b78771d", 
-   "Value": "Arista Demo", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "image", 
-   "ResourceId": "ami-07a25e7f", 
-   "Value": "Arista-CVP VMW", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "image", 
-   "ResourceId": "ami-4fbb5837", 
-   "Value": "Arista vEOS EFT1", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "image", 
-   "ResourceId": "ami-a0bc40d8", 
-   "Value": "Arista-CVP Original", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "customer-gateway", 
-   "ResourceId": "cgw-fb76ace5", 
-   "Value": "lhr-border-02", 
-   "Key": "Name"
-  }, 
-  {
-   "ResourceType": "internet-gateway", 
-   "ResourceId": "igw-9b93ddfc", 
    "Value": "Arista Demo", 
    "Key": "Name"
   }
