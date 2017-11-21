@@ -1,81 +1,6 @@
 {
  "Vpcs": [
   {
-   "CidrBlock": "10.180.0.0/16", 
-   "CidrBlockAssociationSet": [
-    {
-     "AssociationId": "vpc-cidr-assoc-c8a16ca3", 
-     "CidrBlock": "10.180.0.0/16", 
-     "CidrBlockState": {
-      "State": "associated"
-     }
-    }
-   ], 
-   "DhcpOptionsId": "dopt-5870b93d", 
-   "InstanceTenancy": "default", 
-   "IsDefault": false, 
-   "State": "available", 
-   "Tags": [
-    {
-     "Key": "Name", 
-     "Value": "toast"
-    }, 
-    {
-     "Key": "aws:cloudformation:stack-id", 
-     "Value": "arn:aws:cloudformation:us-west-2:118292266645:stack/toast-VPC-1J6BFOAHUS41J/3de9b810-ce67-11e7-b0e9-500c33711061"
-    }, 
-    {
-     "Key": "aws:cloudformation:stack-name", 
-     "Value": "toast-VPC-1J6BFOAHUS41J"
-    }, 
-    {
-     "Key": "aws:cloudformation:logical-id", 
-     "Value": "VPC"
-    }
-   ], 
-   "VpcId": "vpc-50fffd36"
-  }, 
-  {
-   "CidrBlock": "10.160.0.0/16", 
-   "CidrBlockAssociationSet": [
-    {
-     "AssociationId": "vpc-cidr-assoc-abf70cc0", 
-     "CidrBlock": "10.160.0.0/16", 
-     "CidrBlockState": {
-      "State": "associated"
-     }
-    }
-   ], 
-   "DhcpOptionsId": "dopt-5870b93d", 
-   "InstanceTenancy": "default", 
-   "IsDefault": false, 
-   "State": "available", 
-   "Tags": [
-    {
-     "Key": "Name", 
-     "Value": "probe"
-    }
-   ], 
-   "VpcId": "vpc-5e4c7738"
-  }, 
-  {
-   "CidrBlock": "172.31.0.0/16", 
-   "CidrBlockAssociationSet": [
-    {
-     "AssociationId": "vpc-cidr-assoc-67602a0e", 
-     "CidrBlock": "172.31.0.0/16", 
-     "CidrBlockState": {
-      "State": "associated"
-     }
-    }
-   ], 
-   "DhcpOptionsId": "dopt-5870b93d", 
-   "InstanceTenancy": "default", 
-   "IsDefault": true, 
-   "State": "available", 
-   "VpcId": "vpc-f8fad69d"
-  }, 
-  {
    "CidrBlock": "10.100.0.0/16", 
    "CidrBlockAssociationSet": [
     {
@@ -97,29 +22,6 @@
     }
    ], 
    "VpcId": "vpc-815775e7"
-  }, 
-  {
-   "CidrBlock": "10.199.100.0/24", 
-   "CidrBlockAssociationSet": [
-    {
-     "AssociationId": "vpc-cidr-assoc-0c77b567", 
-     "CidrBlock": "10.199.100.0/24", 
-     "CidrBlockState": {
-      "State": "associated"
-     }
-    }
-   ], 
-   "DhcpOptionsId": "dopt-5870b93d", 
-   "InstanceTenancy": "default", 
-   "IsDefault": false, 
-   "State": "available", 
-   "Tags": [
-    {
-     "Key": "Name", 
-     "Value": "ElasticSearchVPC"
-    }
-   ], 
-   "VpcId": "vpc-f6c5c790"
   }
  ]
 }
