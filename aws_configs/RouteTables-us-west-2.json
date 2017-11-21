@@ -1,0 +1,46 @@
+{
+ "RouteTables": [
+  {
+   "Associations": [
+    {
+     "Main": true, 
+     "RouteTableAssociationId": "rtbassoc-4432313c", 
+     "RouteTableId": "rtb-296bf350"
+    }, 
+    {
+     "Main": false, 
+     "RouteTableAssociationId": "rtbassoc-018d6c7a", 
+     "RouteTableId": "rtb-296bf350", 
+     "SubnetId": "subnet-9a0c48fc"
+    }
+   ], 
+   "PropagatingVgws": [
+    {
+     "GatewayId": "vgw-81fd279f"
+    }
+   ], 
+   "RouteTableId": "rtb-296bf350", 
+   "Routes": [
+    {
+     "DestinationCidrBlock": "10.100.0.0/16", 
+     "GatewayId": "local", 
+     "Origin": "CreateRouteTable", 
+     "State": "active"
+    }, 
+    {
+     "DestinationCidrBlock": "0.0.0.0/0", 
+     "GatewayId": "igw-aad7d6cd", 
+     "Origin": "CreateRoute", 
+     "State": "active"
+    }
+   ], 
+   "Tags": [
+    {
+     "Key": "Name", 
+     "Value": "GNS3-BGP-Test"
+    }
+   ], 
+   "VpcId": "vpc-815775e7"
+  }
+ ]
+}
