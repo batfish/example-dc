@@ -1,0 +1,37 @@
+{
+ "Addresses": [
+  {
+   "AllocationId": "eipalloc-52f78c6f", 
+   "AssociationId": "eipassoc-e27357dd", 
+   "Domain": "vpc", 
+   "NetworkInterfaceId": "eni-dba5f6e8", 
+   "NetworkInterfaceOwnerId": "118292266645", 
+   "PrivateIpAddress": "10.180.20.7", 
+   "PublicIp": "34.212.129.101"
+  }, 
+  {
+   "AllocationId": "eipalloc-c0da79fd", 
+   "Domain": "vpc", 
+   "PublicIp": "34.214.188.89"
+  }, 
+  {
+   "AllocationId": "eipalloc-bcf18a81", 
+   "AssociationId": "eipassoc-8a7d59b5", 
+   "Domain": "vpc", 
+   "NetworkInterfaceId": "eni-3f245d1f", 
+   "NetworkInterfaceOwnerId": "118292266645", 
+   "PrivateIpAddress": "10.180.11.194", 
+   "PublicIp": "35.164.14.125"
+  }, 
+  {
+   "AllocationId": "eipalloc-d9394ae4", 
+   "AssociationId": "eipassoc-3497da0b", 
+   "Domain": "vpc", 
+   "InstanceId": "i-0c07777ab59e439bc", 
+   "NetworkInterfaceId": "eni-621a9c42", 
+   "NetworkInterfaceOwnerId": "118292266645", 
+   "PrivateIpAddress": "10.160.0.97", 
+   "PublicIp": "52.11.16.16"
+  }
+ ]
+}

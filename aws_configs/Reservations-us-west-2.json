@@ -107,6 +107,258 @@
    ], 
    "OwnerId": "118292266645", 
    "ReservationId": "r-0a8aff960bbcc658e"
+  }, 
+  {
+   "Groups": [], 
+   "Instances": [
+    {
+     "AmiLaunchIndex": 0, 
+     "Architecture": "x86_64", 
+     "BlockDeviceMappings": [
+      {
+       "DeviceName": "/dev/xvda", 
+       "Ebs": {
+        "AttachTime": "2017-11-15 01:51:19+00:00", 
+        "DeleteOnTermination": true, 
+        "Status": "attached", 
+        "VolumeId": "vol-03633d05f5ef5d6f3"
+       }
+      }
+     ], 
+     "ClientToken": "NAjIn1510710678445", 
+     "EbsOptimized": false, 
+     "EnaSupport": true, 
+     "Hypervisor": "xen", 
+     "ImageId": "ami-32d8124a", 
+     "InstanceId": "i-0c07777ab59e439bc", 
+     "InstanceType": "t2.micro", 
+     "KeyName": "spencer-key-pair", 
+     "LaunchTime": "2017-11-15 01:51:19+00:00", 
+     "Monitoring": {
+      "State": "disabled"
+     }, 
+     "NetworkInterfaces": [
+      {
+       "Association": {
+        "IpOwnerId": "118292266645", 
+        "PublicDnsName": "ec2-52-11-16-16.us-west-2.compute.amazonaws.com", 
+        "PublicIp": "52.11.16.16"
+       }, 
+       "Attachment": {
+        "AttachTime": "2017-11-15 01:51:19+00:00", 
+        "AttachmentId": "eni-attach-c58d5525", 
+        "DeleteOnTermination": true, 
+        "DeviceIndex": 0, 
+        "Status": "attached"
+       }, 
+       "Description": "Primary network interface", 
+       "Groups": [
+        {
+         "GroupId": "sg-647f7019", 
+         "GroupName": "probe-SG"
+        }
+       ], 
+       "Ipv6Addresses": [], 
+       "MacAddress": "02:6a:d0:a4:27:f6", 
+       "NetworkInterfaceId": "eni-621a9c42", 
+       "OwnerId": "118292266645", 
+       "PrivateDnsName": "ip-10-160-0-97.us-west-2.compute.internal", 
+       "PrivateIpAddress": "10.160.0.97", 
+       "PrivateIpAddresses": [
+        {
+         "Association": {
+          "IpOwnerId": "118292266645", 
+          "PublicDnsName": "ec2-52-11-16-16.us-west-2.compute.amazonaws.com", 
+          "PublicIp": "52.11.16.16"
+         }, 
+         "Primary": true, 
+         "PrivateDnsName": "ip-10-160-0-97.us-west-2.compute.internal", 
+         "PrivateIpAddress": "10.160.0.97"
+        }
+       ], 
+       "SourceDestCheck": true, 
+       "Status": "in-use", 
+       "SubnetId": "subnet-72004214", 
+       "VpcId": "vpc-5e4c7738"
+      }
+     ], 
+     "Placement": {
+      "AvailabilityZone": "us-west-2a", 
+      "GroupName": "", 
+      "Tenancy": "default"
+     }, 
+     "PrivateDnsName": "ip-10-160-0-97.us-west-2.compute.internal", 
+     "PrivateIpAddress": "10.160.0.97", 
+     "ProductCodes": [], 
+     "PublicDnsName": "ec2-52-11-16-16.us-west-2.compute.amazonaws.com", 
+     "PublicIpAddress": "52.11.16.16", 
+     "RootDeviceName": "/dev/xvda", 
+     "RootDeviceType": "ebs", 
+     "SecurityGroups": [
+      {
+       "GroupId": "sg-647f7019", 
+       "GroupName": "probe-SG"
+      }
+     ], 
+     "SourceDestCheck": true, 
+     "State": {
+      "Code": 16, 
+      "Name": "running"
+     }, 
+     "StateTransitionReason": "", 
+     "SubnetId": "subnet-72004214", 
+     "Tags": [
+      {
+       "Key": "Name", 
+       "Value": "testProbe"
+      }
+     ], 
+     "VirtualizationType": "hvm", 
+     "VpcId": "vpc-5e4c7738"
+    }
+   ], 
+   "OwnerId": "118292266645", 
+   "ReservationId": "r-00897793f3a9e45de"
+  }, 
+  {
+   "Groups": [], 
+   "Instances": [
+    {
+     "AmiLaunchIndex": 0, 
+     "Architecture": "x86_64", 
+     "BlockDeviceMappings": [
+      {
+       "DeviceName": "/dev/xvda", 
+       "Ebs": {
+        "AttachTime": "2017-11-21 03:00:53+00:00", 
+        "DeleteOnTermination": true, 
+        "Status": "attached", 
+        "VolumeId": "vol-0554d29d63af69b71"
+       }
+      }, 
+      {
+       "DeviceName": "/dev/xvdcz", 
+       "Ebs": {
+        "AttachTime": "2017-11-21 03:00:53+00:00", 
+        "DeleteOnTermination": true, 
+        "Status": "attached", 
+        "VolumeId": "vol-0e62c4ea9348407c6"
+       }
+      }
+     ], 
+     "ClientToken": "55157f72-15a4-0698-8de6-9e3fc3876717_subnet-3e7e3458_1", 
+     "EbsOptimized": false, 
+     "EnaSupport": true, 
+     "Hypervisor": "xen", 
+     "IamInstanceProfile": {
+      "Arn": "arn:aws:iam::118292266645:instance-profile/toast-ECS-OPGT1AG3XT1T-ECSInstanceProfile-TY3EJD88DITO", 
+      "Id": "AIPAJ26FDXL2RC7FZG2V6"
+     }, 
+     "ImageId": "ami-a64d9ade", 
+     "InstanceId": "i-0decd02a020a1a42d", 
+     "InstanceType": "m4.large", 
+     "KeyName": "ecs_keypair", 
+     "LaunchTime": "2017-11-21 03:00:52+00:00", 
+     "Monitoring": {
+      "State": "disabled"
+     }, 
+     "NetworkInterfaces": [
+      {
+       "Association": {
+        "IpOwnerId": "amazon", 
+        "PublicDnsName": "", 
+        "PublicIp": "35.163.248.48"
+       }, 
+       "Attachment": {
+        "AttachTime": "2017-11-21 03:00:52+00:00", 
+        "AttachmentId": "eni-attach-f58d0015", 
+        "DeleteOnTermination": true, 
+        "DeviceIndex": 0, 
+        "Status": "attached"
+       }, 
+       "Description": "", 
+       "Groups": [
+        {
+         "GroupId": "sg-953bdce9", 
+         "GroupName": "toast-SecurityGroups-1587GSDPLKLUH-ECSHostSecurityGroup-11PTLQU56C6O6"
+        }
+       ], 
+       "Ipv6Addresses": [], 
+       "MacAddress": "02:39:4f:46:13:54", 
+       "NetworkInterfaceId": "eni-7a1c655a", 
+       "OwnerId": "118292266645", 
+       "PrivateIpAddress": "10.180.14.184", 
+       "PrivateIpAddresses": [
+        {
+         "Association": {
+          "IpOwnerId": "amazon", 
+          "PublicDnsName": "", 
+          "PublicIp": "35.163.248.48"
+         }, 
+         "Primary": true, 
+         "PrivateIpAddress": "10.180.14.184"
+        }
+       ], 
+       "SourceDestCheck": true, 
+       "Status": "in-use", 
+       "SubnetId": "subnet-3e7e3458", 
+       "VpcId": "vpc-50fffd36"
+      }
+     ], 
+     "Placement": {
+      "AvailabilityZone": "us-west-2a", 
+      "GroupName": "", 
+      "Tenancy": "default"
+     }, 
+     "PrivateDnsName": "ip-10-180-14-184.us-west-2.compute.internal", 
+     "PrivateIpAddress": "10.180.14.184", 
+     "ProductCodes": [], 
+     "PublicDnsName": "", 
+     "PublicIpAddress": "35.163.248.48", 
+     "RootDeviceName": "/dev/xvda", 
+     "RootDeviceType": "ebs", 
+     "SecurityGroups": [
+      {
+       "GroupId": "sg-953bdce9", 
+       "GroupName": "toast-SecurityGroups-1587GSDPLKLUH-ECSHostSecurityGroup-11PTLQU56C6O6"
+      }
+     ], 
+     "SourceDestCheck": true, 
+     "State": {
+      "Code": 16, 
+      "Name": "running"
+     }, 
+     "StateTransitionReason": "", 
+     "SubnetId": "subnet-3e7e3458", 
+     "Tags": [
+      {
+       "Key": "Name", 
+       "Value": "toast ECS host"
+      }, 
+      {
+       "Key": "aws:cloudformation:stack-name", 
+       "Value": "toast-ECS-OPGT1AG3XT1T"
+      }, 
+      {
+       "Key": "aws:cloudformation:stack-id", 
+       "Value": "arn:aws:cloudformation:us-west-2:118292266645:stack/toast-ECS-OPGT1AG3XT1T/d03d4880-ce67-11e7-96e2-503f2a2ceeba"
+      }, 
+      {
+       "Key": "aws:autoscaling:groupName", 
+       "Value": "toast-ECS-OPGT1AG3XT1T-ECSAutoScalingGroup-ZFC8ZGKGUN16"
+      }, 
+      {
+       "Key": "aws:cloudformation:logical-id", 
+       "Value": "ECSAutoScalingGroup"
+      }
+     ], 
+     "VirtualizationType": "hvm", 
+     "VpcId": "vpc-50fffd36"
+    }
+   ], 
+   "OwnerId": "118292266645", 
+   "RequesterId": "226008221399", 
+   "ReservationId": "r-0460734ab36f2698f"
   }
  ]
 }

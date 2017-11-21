@@ -1,0 +1,472 @@
+{
+ "Tags": [
+  {
+   "Key": "creator", 
+   "ResourceId": "vol-0fee8f85aca6176cf", 
+   "ResourceType": "volume", 
+   "Value": "ratul"
+  }, 
+  {
+   "Key": "purpose", 
+   "ResourceId": "vol-0fee8f85aca6176cf", 
+   "ResourceType": "volume", 
+   "Value": "solarwinds"
+  }, 
+  {
+   "Key": "Name", 
+   "ResourceId": "cgw-fb76ace5", 
+   "ResourceType": "customer-gateway", 
+   "Value": "lhr-border-02"
+  }, 
+  {
+   "Key": "Name", 
+   "ResourceId": "igw-99aebbfe", 
+   "ResourceType": "internet-gateway", 
+   "Value": "toast"
+  }, 
+  {
+   "Key": "aws:cloudformation:logical-id", 
+   "ResourceId": "igw-99aebbfe", 
+   "ResourceType": "internet-gateway", 
+   "Value": "InternetGateway"
+  }, 
+  {
+   "Key": "aws:cloudformation:stack-id", 
+   "ResourceId": "igw-99aebbfe", 
+   "ResourceType": "internet-gateway", 
+   "Value": "arn:aws:cloudformation:us-west-2:118292266645:stack/toast-VPC-1J6BFOAHUS41J/3de9b810-ce67-11e7-b0e9-500c33711061"
+  }, 
+  {
+   "Key": "aws:cloudformation:stack-name", 
+   "ResourceId": "igw-99aebbfe", 
+   "ResourceType": "internet-gateway", 
+   "Value": "toast-VPC-1J6BFOAHUS41J"
+  }, 
+  {
+   "Key": "Name", 
+   "ResourceId": "igw-aad7d6cd", 
+   "ResourceType": "internet-gateway", 
+   "Value": "igw-vpc-gns"
+  }, 
+  {
+   "Key": "creator", 
+   "ResourceId": "i-05f467abe21e9b883", 
+   "ResourceType": "instance", 
+   "Value": "ratul"
+  }, 
+  {
+   "Key": "purpose", 
+   "ResourceId": "i-05f467abe21e9b883", 
+   "ResourceType": "instance", 
+   "Value": "solarwinds"
+  }, 
+  {
+   "Key": "Name", 
+   "ResourceId": "i-0c07777ab59e439bc", 
+   "ResourceType": "instance", 
+   "Value": "testProbe"
+  }, 
+  {
+   "Key": "Name", 
+   "ResourceId": "i-0decd02a020a1a42d", 
+   "ResourceType": "instance", 
+   "Value": "toast ECS host"
+  }, 
+  {
+   "Key": "aws:autoscaling:groupName", 
+   "ResourceId": "i-0decd02a020a1a42d", 
+   "ResourceType": "instance", 
+   "Value": "toast-ECS-OPGT1AG3XT1T-ECSAutoScalingGroup-ZFC8ZGKGUN16"
+  }, 
+  {
+   "Key": "aws:cloudformation:logical-id", 
+   "ResourceId": "i-0decd02a020a1a42d", 
+   "ResourceType": "instance", 
+   "Value": "ECSAutoScalingGroup"
+  }, 
+  {
+   "Key": "aws:cloudformation:stack-id", 
+   "ResourceId": "i-0decd02a020a1a42d", 
+   "ResourceType": "instance", 
+   "Value": "arn:aws:cloudformation:us-west-2:118292266645:stack/toast-ECS-OPGT1AG3XT1T/d03d4880-ce67-11e7-96e2-503f2a2ceeba"
+  }, 
+  {
+   "Key": "aws:cloudformation:stack-name", 
+   "ResourceId": "i-0decd02a020a1a42d", 
+   "ResourceType": "instance", 
+   "Value": "toast-ECS-OPGT1AG3XT1T"
+  }, 
+  {
+   "Key": "Name", 
+   "ResourceId": "vgw-81fd279f", 
+   "ResourceType": "vpn-gateway", 
+   "Value": "lhr-aws-01"
+  }, 
+  {
+   "Key": "Name", 
+   "ResourceId": "ami-4fbb5837", 
+   "ResourceType": "image", 
+   "Value": "Arista vEOS EFT1"
+  }, 
+  {
+   "Key": "Name", 
+   "ResourceId": "pcx-70104119", 
+   "ResourceType": "vpc-peering-connection", 
+   "Value": "batfish-elastic-search"
+  }, 
+  {
+   "Key": "Name", 
+   "ResourceId": "acl-1ced2265", 
+   "ResourceType": "network-acl", 
+   "Value": "GNS3-BGP-Test"
+  }, 
+  {
+   "Key": "aws:cloudformation:logical-id", 
+   "ResourceId": "nat-08c21704416f06046", 
+   "ResourceType": "natgateway", 
+   "Value": "NatGateway2"
+  }, 
+  {
+   "Key": "aws:cloudformation:stack-id", 
+   "ResourceId": "nat-08c21704416f06046", 
+   "ResourceType": "natgateway", 
+   "Value": "arn:aws:cloudformation:us-west-2:118292266645:stack/toast-VPC-1J6BFOAHUS41J/3de9b810-ce67-11e7-b0e9-500c33711061"
+  }, 
+  {
+   "Key": "aws:cloudformation:stack-name", 
+   "ResourceId": "nat-08c21704416f06046", 
+   "ResourceType": "natgateway", 
+   "Value": "toast-VPC-1J6BFOAHUS41J"
+  }, 
+  {
+   "Key": "aws:cloudformation:logical-id", 
+   "ResourceId": "nat-09fd8f73171d2d9a3", 
+   "ResourceType": "natgateway", 
+   "Value": "NatGateway1"
+  }, 
+  {
+   "Key": "aws:cloudformation:stack-id", 
+   "ResourceId": "nat-09fd8f73171d2d9a3", 
+   "ResourceType": "natgateway", 
+   "Value": "arn:aws:cloudformation:us-west-2:118292266645:stack/toast-VPC-1J6BFOAHUS41J/3de9b810-ce67-11e7-b0e9-500c33711061"
+  }, 
+  {
+   "Key": "aws:cloudformation:stack-name", 
+   "ResourceId": "nat-09fd8f73171d2d9a3", 
+   "ResourceType": "natgateway", 
+   "Value": "toast-VPC-1J6BFOAHUS41J"
+  }, 
+  {
+   "Key": "Name", 
+   "ResourceId": "subnet-3e7e3458", 
+   "ResourceType": "subnet", 
+   "Value": "toast Public Subnet (AZ1)"
+  }, 
+  {
+   "Key": "aws:cloudformation:logical-id", 
+   "ResourceId": "subnet-3e7e3458", 
+   "ResourceType": "subnet", 
+   "Value": "PublicSubnet1"
+  }, 
+  {
+   "Key": "aws:cloudformation:stack-id", 
+   "ResourceId": "subnet-3e7e3458", 
+   "ResourceType": "subnet", 
+   "Value": "arn:aws:cloudformation:us-west-2:118292266645:stack/toast-VPC-1J6BFOAHUS41J/3de9b810-ce67-11e7-b0e9-500c33711061"
+  }, 
+  {
+   "Key": "aws:cloudformation:stack-name", 
+   "ResourceId": "subnet-3e7e3458", 
+   "ResourceType": "subnet", 
+   "Value": "toast-VPC-1J6BFOAHUS41J"
+  }, 
+  {
+   "Key": "Name", 
+   "ResourceId": "subnet-72004214", 
+   "ResourceType": "subnet", 
+   "Value": "Public subnet"
+  }, 
+  {
+   "Key": "Name", 
+   "ResourceId": "subnet-9a0c48fc", 
+   "ResourceType": "subnet", 
+   "Value": "subnet-solarwinds"
+  }, 
+  {
+   "Key": "Name", 
+   "ResourceId": "subnet-a9660ce1", 
+   "ResourceType": "subnet", 
+   "Value": "toast Public Subnet (AZ2)"
+  }, 
+  {
+   "Key": "aws:cloudformation:logical-id", 
+   "ResourceId": "subnet-a9660ce1", 
+   "ResourceType": "subnet", 
+   "Value": "PublicSubnet2"
+  }, 
+  {
+   "Key": "aws:cloudformation:stack-id", 
+   "ResourceId": "subnet-a9660ce1", 
+   "ResourceType": "subnet", 
+   "Value": "arn:aws:cloudformation:us-west-2:118292266645:stack/toast-VPC-1J6BFOAHUS41J/3de9b810-ce67-11e7-b0e9-500c33711061"
+  }, 
+  {
+   "Key": "aws:cloudformation:stack-name", 
+   "ResourceId": "subnet-a9660ce1", 
+   "ResourceType": "subnet", 
+   "Value": "toast-VPC-1J6BFOAHUS41J"
+  }, 
+  {
+   "Key": "Name", 
+   "ResourceId": "subnet-be7a10f6", 
+   "ResourceType": "subnet", 
+   "Value": "toast Private Subnet (AZ2)"
+  }, 
+  {
+   "Key": "aws:cloudformation:logical-id", 
+   "ResourceId": "subnet-be7a10f6", 
+   "ResourceType": "subnet", 
+   "Value": "PrivateSubnet2"
+  }, 
+  {
+   "Key": "aws:cloudformation:stack-id", 
+   "ResourceId": "subnet-be7a10f6", 
+   "ResourceType": "subnet", 
+   "Value": "arn:aws:cloudformation:us-west-2:118292266645:stack/toast-VPC-1J6BFOAHUS41J/3de9b810-ce67-11e7-b0e9-500c33711061"
+  }, 
+  {
+   "Key": "aws:cloudformation:stack-name", 
+   "ResourceId": "subnet-be7a10f6", 
+   "ResourceType": "subnet", 
+   "Value": "toast-VPC-1J6BFOAHUS41J"
+  }, 
+  {
+   "Key": "Name", 
+   "ResourceId": "subnet-ca086282", 
+   "ResourceType": "subnet", 
+   "Value": "ElasticSearchSubnet"
+  }, 
+  {
+   "Key": "Name", 
+   "ResourceId": "subnet-f979339f", 
+   "ResourceType": "subnet", 
+   "Value": "toast Private Subnet (AZ1)"
+  }, 
+  {
+   "Key": "aws:cloudformation:logical-id", 
+   "ResourceId": "subnet-f979339f", 
+   "ResourceType": "subnet", 
+   "Value": "PrivateSubnet1"
+  }, 
+  {
+   "Key": "aws:cloudformation:stack-id", 
+   "ResourceId": "subnet-f979339f", 
+   "ResourceType": "subnet", 
+   "Value": "arn:aws:cloudformation:us-west-2:118292266645:stack/toast-VPC-1J6BFOAHUS41J/3de9b810-ce67-11e7-b0e9-500c33711061"
+  }, 
+  {
+   "Key": "aws:cloudformation:stack-name", 
+   "ResourceId": "subnet-f979339f", 
+   "ResourceType": "subnet", 
+   "Value": "toast-VPC-1J6BFOAHUS41J"
+  }, 
+  {
+   "Key": "Name", 
+   "ResourceId": "rtb-296bf350", 
+   "ResourceType": "route-table", 
+   "Value": "GNS3-BGP-Test"
+  }, 
+  {
+   "Key": "Name", 
+   "ResourceId": "rtb-dd2d6fa4", 
+   "ResourceType": "route-table", 
+   "Value": "toast Private Routes (AZ1)"
+  }, 
+  {
+   "Key": "aws:cloudformation:logical-id", 
+   "ResourceId": "rtb-dd2d6fa4", 
+   "ResourceType": "route-table", 
+   "Value": "PrivateRouteTable1"
+  }, 
+  {
+   "Key": "aws:cloudformation:stack-id", 
+   "ResourceId": "rtb-dd2d6fa4", 
+   "ResourceType": "route-table", 
+   "Value": "arn:aws:cloudformation:us-west-2:118292266645:stack/toast-VPC-1J6BFOAHUS41J/3de9b810-ce67-11e7-b0e9-500c33711061"
+  }, 
+  {
+   "Key": "aws:cloudformation:stack-name", 
+   "ResourceId": "rtb-dd2d6fa4", 
+   "ResourceType": "route-table", 
+   "Value": "toast-VPC-1J6BFOAHUS41J"
+  }, 
+  {
+   "Key": "Name", 
+   "ResourceId": "rtb-e1307298", 
+   "ResourceType": "route-table", 
+   "Value": "toast Public Routes"
+  }, 
+  {
+   "Key": "aws:cloudformation:logical-id", 
+   "ResourceId": "rtb-e1307298", 
+   "ResourceType": "route-table", 
+   "Value": "PublicRouteTable"
+  }, 
+  {
+   "Key": "aws:cloudformation:stack-id", 
+   "ResourceId": "rtb-e1307298", 
+   "ResourceType": "route-table", 
+   "Value": "arn:aws:cloudformation:us-west-2:118292266645:stack/toast-VPC-1J6BFOAHUS41J/3de9b810-ce67-11e7-b0e9-500c33711061"
+  }, 
+  {
+   "Key": "aws:cloudformation:stack-name", 
+   "ResourceId": "rtb-e1307298", 
+   "ResourceType": "route-table", 
+   "Value": "toast-VPC-1J6BFOAHUS41J"
+  }, 
+  {
+   "Key": "Name", 
+   "ResourceId": "rtb-f433718d", 
+   "ResourceType": "route-table", 
+   "Value": "toast Private Routes (AZ2)"
+  }, 
+  {
+   "Key": "aws:cloudformation:logical-id", 
+   "ResourceId": "rtb-f433718d", 
+   "ResourceType": "route-table", 
+   "Value": "PrivateRouteTable2"
+  }, 
+  {
+   "Key": "aws:cloudformation:stack-id", 
+   "ResourceId": "rtb-f433718d", 
+   "ResourceType": "route-table", 
+   "Value": "arn:aws:cloudformation:us-west-2:118292266645:stack/toast-VPC-1J6BFOAHUS41J/3de9b810-ce67-11e7-b0e9-500c33711061"
+  }, 
+  {
+   "Key": "aws:cloudformation:stack-name", 
+   "ResourceId": "rtb-f433718d", 
+   "ResourceType": "route-table", 
+   "Value": "toast-VPC-1J6BFOAHUS41J"
+  }, 
+  {
+   "Key": "Name", 
+   "ResourceId": "vpn-ba2e34a8", 
+   "ResourceType": "vpn-connection", 
+   "Value": "GNS3-BGP-Test"
+  }, 
+  {
+   "Key": "Name", 
+   "ResourceId": "snap-0067c4bcfd9460fe3", 
+   "ResourceType": "snapshot", 
+   "Value": "Batfish probe"
+  }, 
+  {
+   "Key": "Name", 
+   "ResourceId": "sg-2a5bbf56", 
+   "ResourceType": "security-group", 
+   "Value": "ElasticSearch"
+  }, 
+  {
+   "Key": "Name", 
+   "ResourceId": "sg-323add4e", 
+   "ResourceType": "security-group", 
+   "Value": "toast-LoadBalancers"
+  }, 
+  {
+   "Key": "aws:cloudformation:logical-id", 
+   "ResourceId": "sg-323add4e", 
+   "ResourceType": "security-group", 
+   "Value": "LoadBalancerSecurityGroup"
+  }, 
+  {
+   "Key": "aws:cloudformation:stack-id", 
+   "ResourceId": "sg-323add4e", 
+   "ResourceType": "security-group", 
+   "Value": "arn:aws:cloudformation:us-west-2:118292266645:stack/toast-SecurityGroups-1587GSDPLKLUH/c00a8e00-ce67-11e7-bea6-503aca41a061"
+  }, 
+  {
+   "Key": "aws:cloudformation:stack-name", 
+   "ResourceId": "sg-323add4e", 
+   "ResourceType": "security-group", 
+   "Value": "toast-SecurityGroups-1587GSDPLKLUH"
+  }, 
+  {
+   "Key": "Name", 
+   "ResourceId": "sg-647f7019", 
+   "ResourceType": "security-group", 
+   "Value": "probe-SG"
+  }, 
+  {
+   "Key": "Name", 
+   "ResourceId": "sg-953bdce9", 
+   "ResourceType": "security-group", 
+   "Value": "toast-ECS-Hosts"
+  }, 
+  {
+   "Key": "aws:cloudformation:logical-id", 
+   "ResourceId": "sg-953bdce9", 
+   "ResourceType": "security-group", 
+   "Value": "ECSHostSecurityGroup"
+  }, 
+  {
+   "Key": "aws:cloudformation:stack-id", 
+   "ResourceId": "sg-953bdce9", 
+   "ResourceType": "security-group", 
+   "Value": "arn:aws:cloudformation:us-west-2:118292266645:stack/toast-SecurityGroups-1587GSDPLKLUH/c00a8e00-ce67-11e7-bea6-503aca41a061"
+  }, 
+  {
+   "Key": "aws:cloudformation:stack-name", 
+   "ResourceId": "sg-953bdce9", 
+   "ResourceType": "security-group", 
+   "Value": "toast-SecurityGroups-1587GSDPLKLUH"
+  }, 
+  {
+   "Key": "Name", 
+   "ResourceId": "sg-adcd87d0", 
+   "ResourceType": "security-group", 
+   "Value": "GNS3-BGP-Test-Default"
+  }, 
+  {
+   "Key": "Name", 
+   "ResourceId": "vpc-50fffd36", 
+   "ResourceType": "vpc", 
+   "Value": "toast"
+  }, 
+  {
+   "Key": "aws:cloudformation:logical-id", 
+   "ResourceId": "vpc-50fffd36", 
+   "ResourceType": "vpc", 
+   "Value": "VPC"
+  }, 
+  {
+   "Key": "aws:cloudformation:stack-id", 
+   "ResourceId": "vpc-50fffd36", 
+   "ResourceType": "vpc", 
+   "Value": "arn:aws:cloudformation:us-west-2:118292266645:stack/toast-VPC-1J6BFOAHUS41J/3de9b810-ce67-11e7-b0e9-500c33711061"
+  }, 
+  {
+   "Key": "aws:cloudformation:stack-name", 
+   "ResourceId": "vpc-50fffd36", 
+   "ResourceType": "vpc", 
+   "Value": "toast-VPC-1J6BFOAHUS41J"
+  }, 
+  {
+   "Key": "Name", 
+   "ResourceId": "vpc-5e4c7738", 
+   "ResourceType": "vpc", 
+   "Value": "probe"
+  }, 
+  {
+   "Key": "Name", 
+   "ResourceId": "vpc-815775e7", 
+   "ResourceType": "vpc", 
+   "Value": "GNS3-BGP-Test"
+  }, 
+  {
+   "Key": "Name", 
+   "ResourceId": "vpc-f6c5c790", 
+   "ResourceType": "vpc", 
+   "Value": "ElasticSearchVPC"
+  }
+ ]
+}

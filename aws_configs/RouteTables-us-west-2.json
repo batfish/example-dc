@@ -3,6 +3,79 @@
   {
    "Associations": [
     {
+     "Main": false, 
+     "RouteTableAssociationId": "rtbassoc-33b54d48", 
+     "RouteTableId": "rtb-dd2d6fa4", 
+     "SubnetId": "subnet-f979339f"
+    }
+   ], 
+   "PropagatingVgws": [], 
+   "RouteTableId": "rtb-dd2d6fa4", 
+   "Routes": [
+    {
+     "DestinationCidrBlock": "10.180.0.0/16", 
+     "GatewayId": "local", 
+     "Origin": "CreateRouteTable", 
+     "State": "active"
+    }, 
+    {
+     "DestinationCidrBlock": "0.0.0.0/0", 
+     "NatGatewayId": "nat-09fd8f73171d2d9a3", 
+     "Origin": "CreateRoute", 
+     "State": "active"
+    }
+   ], 
+   "Tags": [
+    {
+     "Key": "aws:cloudformation:stack-id", 
+     "Value": "arn:aws:cloudformation:us-west-2:118292266645:stack/toast-VPC-1J6BFOAHUS41J/3de9b810-ce67-11e7-b0e9-500c33711061"
+    }, 
+    {
+     "Key": "aws:cloudformation:stack-name", 
+     "Value": "toast-VPC-1J6BFOAHUS41J"
+    }, 
+    {
+     "Key": "Name", 
+     "Value": "toast Private Routes (AZ1)"
+    }, 
+    {
+     "Key": "aws:cloudformation:logical-id", 
+     "Value": "PrivateRouteTable1"
+    }
+   ], 
+   "VpcId": "vpc-50fffd36"
+  }, 
+  {
+   "Associations": [
+    {
+     "Main": false, 
+     "RouteTableAssociationId": "rtbassoc-6914fd12", 
+     "RouteTableId": "rtb-1ad2ad63", 
+     "SubnetId": "subnet-72004214"
+    }
+   ], 
+   "PropagatingVgws": [], 
+   "RouteTableId": "rtb-1ad2ad63", 
+   "Routes": [
+    {
+     "DestinationCidrBlock": "10.160.0.0/16", 
+     "GatewayId": "local", 
+     "Origin": "CreateRouteTable", 
+     "State": "active"
+    }, 
+    {
+     "DestinationCidrBlock": "0.0.0.0/0", 
+     "GatewayId": "igw-599a963e", 
+     "Origin": "CreateRoute", 
+     "State": "active"
+    }
+   ], 
+   "Tags": [], 
+   "VpcId": "vpc-5e4c7738"
+  }, 
+  {
+   "Associations": [
+    {
      "Main": true, 
      "RouteTableAssociationId": "rtbassoc-4432313c", 
      "RouteTableId": "rtb-296bf350"
@@ -41,6 +114,210 @@
     }
    ], 
    "VpcId": "vpc-815775e7"
+  }, 
+  {
+   "Associations": [
+    {
+     "Main": false, 
+     "RouteTableAssociationId": "rtbassoc-0dfe0676", 
+     "RouteTableId": "rtb-ccedaeb5", 
+     "SubnetId": "subnet-ca086282"
+    }, 
+    {
+     "Main": true, 
+     "RouteTableAssociationId": "rtbassoc-0c0df477", 
+     "RouteTableId": "rtb-ccedaeb5"
+    }
+   ], 
+   "PropagatingVgws": [], 
+   "RouteTableId": "rtb-ccedaeb5", 
+   "Routes": [
+    {
+     "DestinationCidrBlock": "10.199.100.0/24", 
+     "GatewayId": "local", 
+     "Origin": "CreateRouteTable", 
+     "State": "active"
+    }, 
+    {
+     "DestinationCidrBlock": "10.180.0.0/16", 
+     "Origin": "CreateRoute", 
+     "State": "active", 
+     "VpcPeeringConnectionId": "pcx-70104119"
+    }
+   ], 
+   "Tags": [], 
+   "VpcId": "vpc-f6c5c790"
+  }, 
+  {
+   "Associations": [
+    {
+     "Main": true, 
+     "RouteTableAssociationId": "rtbassoc-83b54df8", 
+     "RouteTableId": "rtb-a33270da"
+    }
+   ], 
+   "PropagatingVgws": [], 
+   "RouteTableId": "rtb-a33270da", 
+   "Routes": [
+    {
+     "DestinationCidrBlock": "10.180.0.0/16", 
+     "GatewayId": "local", 
+     "Origin": "CreateRouteTable", 
+     "State": "active"
+    }
+   ], 
+   "Tags": [], 
+   "VpcId": "vpc-50fffd36"
+  }, 
+  {
+   "Associations": [
+    {
+     "Main": true, 
+     "RouteTableAssociationId": "rtbassoc-ca5d4faf", 
+     "RouteTableId": "rtb-e3d7e486"
+    }
+   ], 
+   "PropagatingVgws": [], 
+   "RouteTableId": "rtb-e3d7e486", 
+   "Routes": [
+    {
+     "DestinationCidrBlock": "172.31.0.0/16", 
+     "GatewayId": "local", 
+     "Origin": "CreateRouteTable", 
+     "State": "active"
+    }, 
+    {
+     "DestinationCidrBlock": "0.0.0.0/0", 
+     "GatewayId": "igw-068fee63", 
+     "Origin": "CreateRoute", 
+     "State": "active"
+    }
+   ], 
+   "Tags": [], 
+   "VpcId": "vpc-f8fad69d"
+  }, 
+  {
+   "Associations": [
+    {
+     "Main": true, 
+     "RouteTableAssociationId": "rtbassoc-6b14fd10", 
+     "RouteTableId": "rtb-70d4ab09"
+    }
+   ], 
+   "PropagatingVgws": [], 
+   "RouteTableId": "rtb-70d4ab09", 
+   "Routes": [
+    {
+     "DestinationCidrBlock": "10.160.0.0/16", 
+     "GatewayId": "local", 
+     "Origin": "CreateRouteTable", 
+     "State": "active"
+    }
+   ], 
+   "Tags": [], 
+   "VpcId": "vpc-5e4c7738"
+  }, 
+  {
+   "Associations": [
+    {
+     "Main": false, 
+     "RouteTableAssociationId": "rtbassoc-3eb54d45", 
+     "RouteTableId": "rtb-f433718d", 
+     "SubnetId": "subnet-be7a10f6"
+    }
+   ], 
+   "PropagatingVgws": [], 
+   "RouteTableId": "rtb-f433718d", 
+   "Routes": [
+    {
+     "DestinationCidrBlock": "10.180.0.0/16", 
+     "GatewayId": "local", 
+     "Origin": "CreateRouteTable", 
+     "State": "active"
+    }, 
+    {
+     "DestinationCidrBlock": "0.0.0.0/0", 
+     "NatGatewayId": "nat-08c21704416f06046", 
+     "Origin": "CreateRoute", 
+     "State": "active"
+    }
+   ], 
+   "Tags": [
+    {
+     "Key": "aws:cloudformation:logical-id", 
+     "Value": "PrivateRouteTable2"
+    }, 
+    {
+     "Key": "aws:cloudformation:stack-id", 
+     "Value": "arn:aws:cloudformation:us-west-2:118292266645:stack/toast-VPC-1J6BFOAHUS41J/3de9b810-ce67-11e7-b0e9-500c33711061"
+    }, 
+    {
+     "Key": "Name", 
+     "Value": "toast Private Routes (AZ2)"
+    }, 
+    {
+     "Key": "aws:cloudformation:stack-name", 
+     "Value": "toast-VPC-1J6BFOAHUS41J"
+    }
+   ], 
+   "VpcId": "vpc-50fffd36"
+  }, 
+  {
+   "Associations": [
+    {
+     "Main": false, 
+     "RouteTableAssociationId": "rtbassoc-3fb54d44", 
+     "RouteTableId": "rtb-e1307298", 
+     "SubnetId": "subnet-3e7e3458"
+    }, 
+    {
+     "Main": false, 
+     "RouteTableAssociationId": "rtbassoc-3fb24a44", 
+     "RouteTableId": "rtb-e1307298", 
+     "SubnetId": "subnet-a9660ce1"
+    }
+   ], 
+   "PropagatingVgws": [], 
+   "RouteTableId": "rtb-e1307298", 
+   "Routes": [
+    {
+     "DestinationCidrBlock": "10.199.100.0/24", 
+     "Origin": "CreateRoute", 
+     "State": "active", 
+     "VpcPeeringConnectionId": "pcx-70104119"
+    }, 
+    {
+     "DestinationCidrBlock": "10.180.0.0/16", 
+     "GatewayId": "local", 
+     "Origin": "CreateRouteTable", 
+     "State": "active"
+    }, 
+    {
+     "DestinationCidrBlock": "0.0.0.0/0", 
+     "GatewayId": "igw-99aebbfe", 
+     "Origin": "CreateRoute", 
+     "State": "active"
+    }
+   ], 
+   "Tags": [
+    {
+     "Key": "Name", 
+     "Value": "toast Public Routes"
+    }, 
+    {
+     "Key": "aws:cloudformation:logical-id", 
+     "Value": "PublicRouteTable"
+    }, 
+    {
+     "Key": "aws:cloudformation:stack-id", 
+     "Value": "arn:aws:cloudformation:us-west-2:118292266645:stack/toast-VPC-1J6BFOAHUS41J/3de9b810-ce67-11e7-b0e9-500c33711061"
+    }, 
+    {
+     "Key": "aws:cloudformation:stack-name", 
+     "Value": "toast-VPC-1J6BFOAHUS41J"
+    }
+   ], 
+   "VpcId": "vpc-50fffd36"
   }
  ]
 }

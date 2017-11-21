@@ -2,6 +2,54 @@
  "Subnets": [
   {
    "AssignIpv6AddressOnCreation": false, 
+   "AvailabilityZone": "us-west-2b", 
+   "AvailableIpAddressCount": 248, 
+   "CidrBlock": "10.199.100.0/24", 
+   "DefaultForAz": false, 
+   "Ipv6CidrBlockAssociationSet": [], 
+   "MapPublicIpOnLaunch": false, 
+   "State": "available", 
+   "SubnetId": "subnet-ca086282", 
+   "Tags": [
+    {
+     "Key": "Name", 
+     "Value": "ElasticSearchSubnet"
+    }
+   ], 
+   "VpcId": "vpc-f6c5c790"
+  }, 
+  {
+   "AssignIpv6AddressOnCreation": false, 
+   "AvailabilityZone": "us-west-2a", 
+   "AvailableIpAddressCount": 2041, 
+   "CidrBlock": "10.180.8.0/21", 
+   "DefaultForAz": false, 
+   "Ipv6CidrBlockAssociationSet": [], 
+   "MapPublicIpOnLaunch": true, 
+   "State": "available", 
+   "SubnetId": "subnet-3e7e3458", 
+   "Tags": [
+    {
+     "Key": "aws:cloudformation:logical-id", 
+     "Value": "PublicSubnet1"
+    }, 
+    {
+     "Key": "Name", 
+     "Value": "toast Public Subnet (AZ1)"
+    }, 
+    {
+     "Key": "aws:cloudformation:stack-id", 
+     "Value": "arn:aws:cloudformation:us-west-2:118292266645:stack/toast-VPC-1J6BFOAHUS41J/3de9b810-ce67-11e7-b0e9-500c33711061"
+    }, 
+    {
+     "Key": "aws:cloudformation:stack-name", 
+     "Value": "toast-VPC-1J6BFOAHUS41J"
+    }
+   ], 
+   "VpcId": "vpc-50fffd36"
+  }, 
+  {
+   "AssignIpv6AddressOnCreation": false, 
    "AvailabilityZone": "us-west-2a", 
    "AvailableIpAddressCount": 250, 
    "CidrBlock": "10.100.1.0/24", 
@@ -17,6 +65,150 @@
     }
    ], 
    "VpcId": "vpc-815775e7"
+  }, 
+  {
+   "AssignIpv6AddressOnCreation": false, 
+   "AvailabilityZone": "us-west-2c", 
+   "AvailableIpAddressCount": 4091, 
+   "CidrBlock": "172.31.0.0/20", 
+   "DefaultForAz": true, 
+   "Ipv6CidrBlockAssociationSet": [], 
+   "MapPublicIpOnLaunch": true, 
+   "State": "available", 
+   "SubnetId": "subnet-1f315846", 
+   "VpcId": "vpc-f8fad69d"
+  }, 
+  {
+   "AssignIpv6AddressOnCreation": false, 
+   "AvailabilityZone": "us-west-2a", 
+   "AvailableIpAddressCount": 2042, 
+   "CidrBlock": "10.180.24.0/21", 
+   "DefaultForAz": false, 
+   "Ipv6CidrBlockAssociationSet": [], 
+   "MapPublicIpOnLaunch": false, 
+   "State": "available", 
+   "SubnetId": "subnet-f979339f", 
+   "Tags": [
+    {
+     "Key": "aws:cloudformation:stack-id", 
+     "Value": "arn:aws:cloudformation:us-west-2:118292266645:stack/toast-VPC-1J6BFOAHUS41J/3de9b810-ce67-11e7-b0e9-500c33711061"
+    }, 
+    {
+     "Key": "aws:cloudformation:logical-id", 
+     "Value": "PrivateSubnet1"
+    }, 
+    {
+     "Key": "Name", 
+     "Value": "toast Private Subnet (AZ1)"
+    }, 
+    {
+     "Key": "aws:cloudformation:stack-name", 
+     "Value": "toast-VPC-1J6BFOAHUS41J"
+    }
+   ], 
+   "VpcId": "vpc-50fffd36"
+  }, 
+  {
+   "AssignIpv6AddressOnCreation": false, 
+   "AvailabilityZone": "us-west-2b", 
+   "AvailableIpAddressCount": 2042, 
+   "CidrBlock": "10.180.16.0/21", 
+   "DefaultForAz": false, 
+   "Ipv6CidrBlockAssociationSet": [], 
+   "MapPublicIpOnLaunch": true, 
+   "State": "available", 
+   "SubnetId": "subnet-a9660ce1", 
+   "Tags": [
+    {
+     "Key": "Name", 
+     "Value": "toast Public Subnet (AZ2)"
+    }, 
+    {
+     "Key": "aws:cloudformation:stack-id", 
+     "Value": "arn:aws:cloudformation:us-west-2:118292266645:stack/toast-VPC-1J6BFOAHUS41J/3de9b810-ce67-11e7-b0e9-500c33711061"
+    }, 
+    {
+     "Key": "aws:cloudformation:stack-name", 
+     "Value": "toast-VPC-1J6BFOAHUS41J"
+    }, 
+    {
+     "Key": "aws:cloudformation:logical-id", 
+     "Value": "PublicSubnet2"
+    }
+   ], 
+   "VpcId": "vpc-50fffd36"
+  }, 
+  {
+   "AssignIpv6AddressOnCreation": false, 
+   "AvailabilityZone": "us-west-2b", 
+   "AvailableIpAddressCount": 2042, 
+   "CidrBlock": "10.180.32.0/21", 
+   "DefaultForAz": false, 
+   "Ipv6CidrBlockAssociationSet": [], 
+   "MapPublicIpOnLaunch": false, 
+   "State": "available", 
+   "SubnetId": "subnet-be7a10f6", 
+   "Tags": [
+    {
+     "Key": "Name", 
+     "Value": "toast Private Subnet (AZ2)"
+    }, 
+    {
+     "Key": "aws:cloudformation:stack-name", 
+     "Value": "toast-VPC-1J6BFOAHUS41J"
+    }, 
+    {
+     "Key": "aws:cloudformation:logical-id", 
+     "Value": "PrivateSubnet2"
+    }, 
+    {
+     "Key": "aws:cloudformation:stack-id", 
+     "Value": "arn:aws:cloudformation:us-west-2:118292266645:stack/toast-VPC-1J6BFOAHUS41J/3de9b810-ce67-11e7-b0e9-500c33711061"
+    }
+   ], 
+   "VpcId": "vpc-50fffd36"
+  }, 
+  {
+   "AssignIpv6AddressOnCreation": false, 
+   "AvailabilityZone": "us-west-2b", 
+   "AvailableIpAddressCount": 4091, 
+   "CidrBlock": "172.31.32.0/20", 
+   "DefaultForAz": true, 
+   "Ipv6CidrBlockAssociationSet": [], 
+   "MapPublicIpOnLaunch": true, 
+   "State": "available", 
+   "SubnetId": "subnet-9c8adceb", 
+   "VpcId": "vpc-f8fad69d"
+  }, 
+  {
+   "AssignIpv6AddressOnCreation": false, 
+   "AvailabilityZone": "us-west-2a", 
+   "AvailableIpAddressCount": 4091, 
+   "CidrBlock": "172.31.16.0/20", 
+   "DefaultForAz": true, 
+   "Ipv6CidrBlockAssociationSet": [], 
+   "MapPublicIpOnLaunch": true, 
+   "State": "available", 
+   "SubnetId": "subnet-d9cafabc", 
+   "VpcId": "vpc-f8fad69d"
+  }, 
+  {
+   "AssignIpv6AddressOnCreation": false, 
+   "AvailabilityZone": "us-west-2a", 
+   "AvailableIpAddressCount": 250, 
+   "CidrBlock": "10.160.0.0/24", 
+   "DefaultForAz": false, 
+   "Ipv6CidrBlockAssociationSet": [], 
+   "MapPublicIpOnLaunch": false, 
+   "State": "available", 
+   "SubnetId": "subnet-72004214", 
+   "Tags": [
+    {
+     "Key": "Name", 
+     "Value": "Public subnet"
+    }
+   ], 
+   "VpcId": "vpc-5e4c7738"
   }
  ]
 }

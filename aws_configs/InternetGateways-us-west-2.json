@@ -1,0 +1,66 @@
+{
+ "InternetGateways": [
+  {
+   "Attachments": [
+    {
+     "State": "available", 
+     "VpcId": "vpc-50fffd36"
+    }
+   ], 
+   "InternetGatewayId": "igw-99aebbfe", 
+   "Tags": [
+    {
+     "Key": "aws:cloudformation:stack-id", 
+     "Value": "arn:aws:cloudformation:us-west-2:118292266645:stack/toast-VPC-1J6BFOAHUS41J/3de9b810-ce67-11e7-b0e9-500c33711061"
+    }, 
+    {
+     "Key": "Name", 
+     "Value": "toast"
+    }, 
+    {
+     "Key": "aws:cloudformation:logical-id", 
+     "Value": "InternetGateway"
+    }, 
+    {
+     "Key": "aws:cloudformation:stack-name", 
+     "Value": "toast-VPC-1J6BFOAHUS41J"
+    }
+   ]
+  }, 
+  {
+   "Attachments": [
+    {
+     "State": "available", 
+     "VpcId": "vpc-f8fad69d"
+    }
+   ], 
+   "InternetGatewayId": "igw-068fee63", 
+   "Tags": []
+  }, 
+  {
+   "Attachments": [
+    {
+     "State": "available", 
+     "VpcId": "vpc-5e4c7738"
+    }
+   ], 
+   "InternetGatewayId": "igw-599a963e", 
+   "Tags": []
+  }, 
+  {
+   "Attachments": [
+    {
+     "State": "available", 
+     "VpcId": "vpc-815775e7"
+    }
+   ], 
+   "InternetGatewayId": "igw-aad7d6cd", 
+   "Tags": [
+    {
+     "Key": "Name", 
+     "Value": "igw-vpc-gns"
+    }
+   ]
+  }
+ ]
+}
