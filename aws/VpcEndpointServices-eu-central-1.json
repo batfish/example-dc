@@ -1,6 +1,0 @@
-{
- "ServiceNames": [
-  "com.amazonaws.eu-central-1.dynamodb", 
-  "com.amazonaws.eu-central-1.s3"
- ]
-}
