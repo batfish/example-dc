@@ -1,0 +1,19 @@
+{
+ "Addresses": [
+  {
+   "AllocationId": "eipalloc-6b3d7856", 
+   "Domain": "vpc", 
+   "PublicIp": "34.210.136.109"
+  }, 
+  {
+   "AllocationId": "eipalloc-c0da79fd", 
+   "Domain": "vpc", 
+   "PublicIp": "34.214.188.89"
+  }, 
+  {
+   "AllocationId": "eipalloc-d9394ae4", 
+   "Domain": "vpc", 
+   "PublicIp": "52.11.16.16"
+  }
+ ]
+}
