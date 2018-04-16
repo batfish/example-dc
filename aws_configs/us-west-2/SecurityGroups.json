@@ -1,6 +1,77 @@
 {
  "SecurityGroups": [
   {
+   "Description": "SG test", 
+   "GroupId": "sg-07fc3a32fc05b3a7b", 
+   "GroupName": "GNS3-BGP-Test", 
+   "IpPermissions": [
+    {
+     "IpProtocol": "-1", 
+     "IpRanges": [], 
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
+     "UserIdGroupPairs": [
+      {
+       "GroupId": "sg-07fc3a32fc05b3a7b", 
+       "UserId": "118292266645"
+      }, 
+      {
+       "GroupId": "sg-adcd87d0", 
+       "UserId": "118292266645"
+      }
+     ]
+    }, 
+    {
+     "FromPort": 22, 
+     "IpProtocol": "tcp", 
+     "IpRanges": [
+      {
+       "CidrIp": "0.0.0.0/0", 
+       "Description": "Default"
+      }
+     ], 
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
+     "ToPort": 22, 
+     "UserIdGroupPairs": []
+    }, 
+    {
+     "FromPort": 443, 
+     "IpProtocol": "tcp", 
+     "IpRanges": [
+      {
+       "CidrIp": "0.0.0.0/0"
+      }
+     ], 
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
+     "ToPort": 443, 
+     "UserIdGroupPairs": []
+    }
+   ], 
+   "IpPermissionsEgress": [
+    {
+     "IpProtocol": "-1", 
+     "IpRanges": [
+      {
+       "CidrIp": "0.0.0.0/0"
+      }
+     ], 
+     "Ipv6Ranges": [], 
+     "PrefixListIds": [], 
+     "UserIdGroupPairs": []
+    }
+   ], 
+   "OwnerId": "118292266645", 
+   "Tags": [
+    {
+     "Key": "Name", 
+     "Value": "GNS3-BGP-Test-Dummy"
+    }
+   ], 
+   "VpcId": "vpc-815775e7"
+  }, 
+  {
    "Description": "default VPC security group", 
    "GroupId": "sg-adcd87d0", 
    "GroupName": "default", 
@@ -9,8 +80,7 @@
      "IpProtocol": "-1", 
      "IpRanges": [
       {
-       "CidrIp": "0.0.0.0/0", 
-       "Description": "Default"
+       "CidrIp": "0.0.0.0/0"
       }
      ], 
      "Ipv6Ranges": [], 

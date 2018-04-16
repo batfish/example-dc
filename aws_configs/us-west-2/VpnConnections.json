@@ -18,18 +18,18 @@
    "Type": "ipsec.1", 
    "VgwTelemetry": [
     {
-     "AcceptedRouteCount": 5, 
-     "LastStatusChange": "2017-12-28 19:35:59+00:00", 
+     "AcceptedRouteCount": 0, 
+     "LastStatusChange": "2018-04-13 20:21:47+00:00", 
      "OutsideIpAddress": "52.27.166.152", 
-     "Status": "UP", 
-     "StatusMessage": "5 BGP ROUTES"
+     "Status": "DOWN", 
+     "StatusMessage": "IPSEC IS DOWN"
     }, 
     {
-     "AcceptedRouteCount": 5, 
-     "LastStatusChange": "2017-12-28 19:35:35+00:00", 
+     "AcceptedRouteCount": 0, 
+     "LastStatusChange": "2018-04-13 20:21:18+00:00", 
      "OutsideIpAddress": "52.39.121.126", 
-     "Status": "UP", 
-     "StatusMessage": "5 BGP ROUTES"
+     "Status": "DOWN", 
+     "StatusMessage": "IPSEC IS DOWN"
     }
    ], 
    "VpnConnectionId": "vpn-ba2e34a8", 

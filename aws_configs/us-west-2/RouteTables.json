@@ -38,36 +38,6 @@
      "GatewayId": "igw-aad7d6cd", 
      "Origin": "CreateRoute", 
      "State": "blackhole"
-    }, 
-    {
-     "DestinationCidrBlock": "10.1.1.0/24", 
-     "GatewayId": "vgw-81fd279f", 
-     "Origin": "EnableVgwRoutePropagation", 
-     "State": "active"
-    }, 
-    {
-     "DestinationCidrBlock": "10.1.2.0/24", 
-     "GatewayId": "vgw-81fd279f", 
-     "Origin": "EnableVgwRoutePropagation", 
-     "State": "active"
-    }, 
-    {
-     "DestinationCidrBlock": "10.1.3.0/24", 
-     "GatewayId": "vgw-81fd279f", 
-     "Origin": "EnableVgwRoutePropagation", 
-     "State": "active"
-    }, 
-    {
-     "DestinationCidrBlock": "10.1.4.0/24", 
-     "GatewayId": "vgw-81fd279f", 
-     "Origin": "EnableVgwRoutePropagation", 
-     "State": "active"
-    }, 
-    {
-     "DestinationCidrBlock": "10.10.0.0/16", 
-     "GatewayId": "vgw-81fd279f", 
-     "Origin": "EnableVgwRoutePropagation", 
-     "State": "active"
     }
    ], 
    "Tags": [

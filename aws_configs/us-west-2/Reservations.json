@@ -25,7 +25,7 @@
      "InstanceId": "i-0549ed296e856a194", 
      "InstanceType": "t2.micro", 
      "KeyName": "test-fin-app", 
-     "LaunchTime": "2017-12-19 23:45:31+00:00", 
+     "LaunchTime": "2018-04-12 18:48:25+00:00", 
      "Monitoring": {
       "State": "disabled"
      }, 
@@ -81,15 +81,19 @@
      ], 
      "SourceDestCheck": true, 
      "State": {
-      "Code": 16, 
-      "Name": "running"
+      "Code": 80, 
+      "Name": "stopped"
      }, 
-     "StateTransitionReason": "", 
+     "StateReason": {
+      "Code": "Client.UserInitiatedShutdown", 
+      "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
+     }, 
+     "StateTransitionReason": "User initiated (2018-04-12 19:08:03 GMT)", 
      "SubnetId": "subnet-9a0c48fc", 
      "Tags": [
       {
        "Key": "Name", 
-       "Value": "fin-app-02"
+       "Value": "fin-app-03"
       }
      ], 
      "VirtualizationType": "hvm", 
@@ -124,7 +128,7 @@
      "InstanceId": "i-05f467abe21e9b883", 
      "InstanceType": "t2.large", 
      "KeyName": "ratul", 
-     "LaunchTime": "2017-12-08 22:04:59+00:00", 
+     "LaunchTime": "2018-04-03 00:34:37+00:00", 
      "Monitoring": {
       "State": "disabled"
      }, 
@@ -188,7 +192,7 @@
       "Code": "Client.UserInitiatedShutdown", 
       "Message": "Client.UserInitiatedShutdown: User initiated shutdown"
      }, 
-     "StateTransitionReason": "User initiated (2017-12-09 00:25:19 GMT)", 
+     "StateTransitionReason": "User initiated (2018-04-03 00:53:23 GMT)", 
      "SubnetId": "subnet-9a0c48fc", 
      "Tags": [
       {
@@ -205,7 +209,7 @@
       }, 
       {
        "Key": "Name", 
-       "Value": "shutdown"
+       "Value": "solarwinds-ncm"
       }
      ], 
      "VirtualizationType": "hvm", 

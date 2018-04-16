@@ -10,25 +10,11 @@
    ], 
    "Entries": [
     {
-     "CidrBlock": "10.10.0.0/16", 
-     "Egress": true, 
-     "Protocol": "-1", 
-     "RuleAction": "allow", 
-     "RuleNumber": 100
-    }, 
-    {
-     "CidrBlock": "10.1.0.0/16", 
-     "Egress": true, 
-     "Protocol": "-1", 
-     "RuleAction": "allow", 
-     "RuleNumber": 200
-    }, 
-    {
      "CidrBlock": "0.0.0.0/0", 
      "Egress": true, 
      "Protocol": "-1", 
      "RuleAction": "allow", 
-     "RuleNumber": 300
+     "RuleNumber": 100
     }, 
     {
      "CidrBlock": "0.0.0.0/0", 
@@ -40,37 +26,68 @@
     {
      "CidrBlock": "10.10.0.0/16", 
      "Egress": false, 
-     "Protocol": "-1", 
+     "PortRange": {
+      "From": 22, 
+      "To": 22
+     }, 
+     "Protocol": "6", 
      "RuleAction": "allow", 
      "RuleNumber": 100
     }, 
     {
-     "CidrBlock": "10.1.3.0/24", 
-     "Egress": false, 
-     "Protocol": "-1", 
-     "RuleAction": "deny", 
-     "RuleNumber": 105
-    }, 
-    {
-     "CidrBlock": "10.1.4.0/24", 
-     "Egress": false, 
-     "Protocol": "-1", 
-     "RuleAction": "deny", 
-     "RuleNumber": 106
-    }, 
-    {
      "CidrBlock": "10.1.0.0/16", 
      "Egress": false, 
-     "Protocol": "-1", 
+     "PortRange": {
+      "From": 22, 
+      "To": 22
+     }, 
+     "Protocol": "6", 
      "RuleAction": "allow", 
      "RuleNumber": 200
     }, 
     {
-     "CidrBlock": "0.0.0.0/0", 
+     "CidrBlock": "10.10.0.0/16", 
      "Egress": false, 
-     "Protocol": "-1", 
+     "PortRange": {
+      "From": 443, 
+      "To": 443
+     }, 
+     "Protocol": "6", 
      "RuleAction": "allow", 
      "RuleNumber": 300
+    }, 
+    {
+     "CidrBlock": "10.1.0.0/16", 
+     "Egress": false, 
+     "PortRange": {
+      "From": 443, 
+      "To": 443
+     }, 
+     "Protocol": "6", 
+     "RuleAction": "allow", 
+     "RuleNumber": 400
+    }, 
+    {
+     "CidrBlock": "10.1.0.0/16", 
+     "Egress": false, 
+     "IcmpTypeCode": {
+      "Code": -1, 
+      "Type": -1
+     }, 
+     "Protocol": "1", 
+     "RuleAction": "allow", 
+     "RuleNumber": 500
+    }, 
+    {
+     "CidrBlock": "10.10.0.0/16", 
+     "Egress": false, 
+     "IcmpTypeCode": {
+      "Code": -1, 
+      "Type": -1
+     }, 
+     "Protocol": "1", 
+     "RuleAction": "allow", 
+     "RuleNumber": 600
     }, 
     {
      "CidrBlock": "0.0.0.0/0", 
